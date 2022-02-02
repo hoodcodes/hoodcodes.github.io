@@ -17,7 +17,7 @@
 
 **Cloud**
 
-- [AWS](./cloud.aws/)
+- [AWS](./cloud/aws/)
 - [Azure](./cloud/azure/)
 - [Google Cloud](./cloud/googlecloud/)
 
