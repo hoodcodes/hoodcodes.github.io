@@ -17,10 +17,10 @@
 
 **Cloud**
 
-- [Cloud Reference](cloud/)
-- [AWS](cloud/aws/)
-- [Azure](cloud/azure/)
-- [Google Cloud](cloud/googlecloud/)
+- [Cloud Reference](CloudDev/)
+- [AWS](CloudDev/AWS/)
+- [Azure](CloudDev/Azure/)
+- [Google Cloud](CloudDev/GoogleCloud/)
 
 **API**
 
