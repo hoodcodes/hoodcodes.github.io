@@ -1,5 +1,5 @@
 # Cloud Reference
 
 - [AWS Reference](aws/)
-- [Azure Reference](../azure/)
-- [Google Cloud Reference](../googlecloud/)
+- [Azure Reference](azure/)
+- [Google Cloud Reference](googlecloud/)

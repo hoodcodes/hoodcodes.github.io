@@ -19,8 +19,8 @@
 
 - [Cloud Reference](cloud/)
 - [AWS](cloud/aws/)
-- [Azure](azure/)
-- [Google Cloud](googlecloud/)
+- [Azure](cloud/azure/)
+- [Google Cloud](cloud/googlecloud/)
 
 **API**
 
