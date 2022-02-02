@@ -17,9 +17,9 @@
 
 **Cloud**
 
-- [AWS](./cloud/aws/)
-- [Azure](./cloud/azure/)
-- [Google Cloud](./cloud/googlecloud/)
+- [AWS](/cloud/aws/)
+- [Azure](/cloud/azure/)
+- [Google Cloud](/cloud/googlecloud/)
 
 **API**
 
