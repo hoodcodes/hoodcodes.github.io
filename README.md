@@ -17,9 +17,9 @@
 
 **Cloud**
 
-- [AWS](/cloud/aws/)
-- [Azure](/cloud/azure/)
-- [Google Cloud](/cloud/googlecloud/)
+- [AWS](cloud/aws/README.md)
+- [Azure](cloud/azure/README.md)
+- [Google Cloud](cloud/googlecloud/README.md)
 
 **API**
 
