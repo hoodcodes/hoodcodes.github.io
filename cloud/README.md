@@ -1,5 +1,5 @@
 # Cloud Reference
 
-[AWS Reference](AWS/README.md)
-[Azure Reference](Azure/README.md)
-[Google Cloud Reference](GoogleCloud/README.md)
+[AWS Reference](aws/README.md)
+[Azure Reference](azure/README.md)
+[Google Cloud Reference](googlecloud/README.md)

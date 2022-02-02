@@ -2,6 +2,23 @@
 
 ###### _Note: The above diagram was created in vscode, using the [unofficial Draw.io Extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), which is worth checking out._
 
+**Languages**
+
+- [C#](./charp/)
+- [Go](./go./)
+- [Java](./java/)]
+- [JavaScript](./javascript/)
+- [Python](./python/)
+- Typescript
+
+**Front End**
+
+**Cloud**
+
+**API**
+
+**Database**
+
 ### First Use of this Reference - Installing Prerequisites
 
 After you pull this repo down and open it in VSCode, you may encounter a series of warning messages, around missing dependencies to run certain code.
