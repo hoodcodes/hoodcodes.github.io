@@ -4,8 +4,8 @@
 
 **Languages**
 
-- [C#](./charp/)
-- [Go](./go./)
+- [C#](./csharp/)
+- [Go](./go/)
 - [Java](./java/)]
 - [JavaScript](./javascript/)
 - [Python](./python/)
