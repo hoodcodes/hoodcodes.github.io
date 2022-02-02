@@ -6,14 +6,20 @@
 
 - [C#](./csharp/)
 - [Go](./go/)
-- [Java](./java/)]
+- [Java](./java/)
 - [JavaScript](./javascript/)
 - [Python](./python/)
-- Typescript
+- [Typescript](./typescript/)
 
 **Front End**
 
+- [React](./react/)
+
 **Cloud**
+
+- [AWS](./cloud.aws/)
+- [Azure](./cloud/azure/)
+- [Google Cloud](./cloud/googlecloud/)
 
 **API**
 
