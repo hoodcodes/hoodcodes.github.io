@@ -1,13 +1,13 @@
 <mxfile host="65bd71144e">
     <diagram id="IzUY5x7Kxzt9NPzNfkvM" name="Page-1">
-        <mxGraphModel dx="1353" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+        <mxGraphModel dx="999" dy="370" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
                 <mxCell id="12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="40" y="130" width="630" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="&lt;h1&gt;HoodCodes Reference&lt;/h1&gt;&lt;p&gt;Dedicated to providing reference information and examples in the following areas of programming.&amp;nbsp;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                <mxCell id="8" value="&lt;h1&gt;Programming Reference&lt;/h1&gt;&lt;p&gt;Dedicated to providing reference information and examples in the following areas of programming.&amp;nbsp;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
                     <mxGeometry x="40" y="10" width="640" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" value="Languages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -126,12 +126,12 @@
                     <mxGeometry x="560" y="410" width="90" height="40" as="geometry"/>
                 </mxCell>
                 <UserObject label="HTML" link="https://hoodcodes.github.io/html" id="66">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
                         <mxGeometry x="310" y="280" width="90" height="40" as="geometry"/>
                     </mxCell>
                 </UserObject>
                 <UserObject label="CSS" link="https://hoodcodes.github.io/css" id="67">
-                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
                         <mxGeometry x="470" y="280" width="90" height="40" as="geometry"/>
                     </mxCell>
                 </UserObject>
