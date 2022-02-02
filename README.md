@@ -17,7 +17,7 @@
 
 **Cloud**
 
-- [Cloud Reference](./cloud/)
+- [Cloud Reference](cloud/)
 - [AWS](cloud/aws/)
 - [Azure](azure/)
 - [Google Cloud](googlecloud/)
