@@ -19,8 +19,8 @@
 
 - [Cloud Reference](./cloud/)
 - [AWS](./cloud/aws/README.md)
-- [Azure](./cloud/azure/README.md)
-- [Google Cloud](./cloud/googlecloud/README.md)
+- [Azure](azure/README.md)
+- [Google Cloud](googlecloud/README.md)
 
 **API**
 
