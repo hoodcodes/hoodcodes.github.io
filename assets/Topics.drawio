@@ -1,0 +1,141 @@
+<mxfile host="65bd71144e">
+    <diagram id="IzUY5x7Kxzt9NPzNfkvM" name="Page-1">
+        <mxGraphModel dx="1353" dy="898" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="130" width="630" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;h1&gt;HoodCodes Reference&lt;/h1&gt;&lt;p&gt;Dedicated to providing reference information and examples in the following areas of programming.&amp;nbsp;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="10" width="640" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Languages" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="100" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="570" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="REST" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="590" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="HTTP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="250" y="590" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="gRPC" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="380" y="590" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="GraphQL" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="510" y="590" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="C#" link="https://hoodcodes.github.io/csharp/" id="22">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+                        <mxGeometry x="60" y="150" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Java" link="https://hoodcodes.github.io/javascript" id="23">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+                        <mxGeometry x="260" y="150" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="JavaScript" link="https://hoodcodes.github.io/javascript" id="24">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+                        <mxGeometry x="360" y="150" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Go" link="https://hoodcodes.github.io/go" id="25">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+                        <mxGeometry x="160" y="150" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="TypeScript" link="https://hoodcodes.github.io/typescript" id="26">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+                        <mxGeometry x="560" y="150" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="Python" link="https://hoodcodes.github.io/python" id="27">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+                        <mxGeometry x="460" y="150" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="28" value="API" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="540" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <UserObject label="" link="https://hoodcodes.github.io/cloud/aws" id="29">
+                    <mxCell style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                        <mxGeometry x="40" y="390" width="630" height="140" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="36" value="Cloud - AWS" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="360" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="260" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="Elastic Beanstalk" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="410" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="Amazon MQ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="410" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" value="Fargate" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="410" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Containers" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="410" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="Container Security" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="410" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Front End" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="230" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="690" width="630" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="Sql" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="710" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="NoSql" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="710" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Database" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="50" y="660" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="EKS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="60" y="460" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Serverless" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="160" y="460" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="API Gateway" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="460" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" value="DevOps" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="460" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="DynamoDB" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="360" y="460" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="React" link="https://hoodcodes.github.io/react" id="59">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+                        <mxGeometry x="150" y="280" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="65" value="ECS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="410" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="HTML" link="https://hoodcodes.github.io/html" id="66">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                        <mxGeometry x="310" y="280" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="CSS" link="https://hoodcodes.github.io/css" id="67">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="1">
+                        <mxGeometry x="470" y="280" width="90" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

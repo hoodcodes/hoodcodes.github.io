@@ -1,0 +1,15 @@
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/bin/Debug/net6.0/csharp
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/bin/Debug/net6.0/csharp.deps.json
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/bin/Debug/net6.0/csharp.runtimeconfig.json
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/bin/Debug/net6.0/csharp.dll
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/bin/Debug/net6.0/ref/csharp.dll
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/bin/Debug/net6.0/csharp.pdb
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.csproj.AssemblyReference.cache
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.GeneratedMSBuildEditorConfig.editorconfig
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.AssemblyInfoInputs.cache
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.AssemblyInfo.cs
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.csproj.CoreCompileInputs.cache
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.dll
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/ref/csharp.dll
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.pdb
+/Users/hoodcodes/Projects/hoodcodes-reference/csharp/obj/Debug/net6.0/csharp.genruntimeconfig.cache
