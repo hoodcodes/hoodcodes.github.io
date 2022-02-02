@@ -128,3 +128,16 @@ Example:
 	remote = origin
 	merge = refs/heads/main
 ```
+
+I do not know if this was truly necessary, but I had also made adds to ssh:
+
+```sh
+ ssh-add ~/.ssh/thecodegarage
+ ssh-add ~/.ssh/hoodcodes
+```
+
+and then viewed my listing of the identities:
+
+```sh
+ ssh-add -l
+```
