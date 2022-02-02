@@ -95,3 +95,36 @@ to apply a stash and keep it in the stash stack:
 `git stash apply stash@{n}`
 
 where `n` is the index of the stashed change
+
+### Setting up to have multiple ssh keys for multiple GitHub accounts
+
+- <TODO: add ssh key gen details for 2 accounts and then elaborate on example adds below>
+
+Example:
+
+```sh
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+	sshCommand = "ssh -i  ~/.ssh/thecodegarage"
+[user]
+	name = thecodegarage
+	email = email@thecodegarage.com
+  	signingkey = thecodegarage
+
+[github]
+  user = "thecodegarage"
+
+
+[remote "origin"]
+	url = git@github.com:thecodegarage/tcg-reference.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+```
