@@ -1,8 +1,34 @@
 # JavaScript ES5 Features & Examples
 
-## _Overview of new additions in ES5_
+## What's New?
 
-#### New Features
+- "use strict"
+- String[number] access
+- Multiline strings
+- String.trim()
+- Array.isArray()
+- Array forEach()
+- Array map()
+- Array filter()
+- Array reduce()
+- Array reduceRight()
+- Array every()
+- Array some()
+- Array indexOf()
+- Array lastIndexOf()
+- JSON.parse()
+- JSON.stringify()
+- Date.now()
+- Date toISOString()
+- Date toJSON()
+- Property getters and setters
+- Reserved words as property names
+- Object methods
+- Object defineProperty()
+- Function bind()
+- Trailing commas
+
+#### New Feature Examples
 
 ###### Strict Mode
 

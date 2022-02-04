@@ -1,12 +1,51 @@
 # ES6 Features & Examples
 
-## Topics:
+## What's New?
+
+-
+
+## New Feature Examples
 
 ### var - let - const
+
+`var` has function scope, while `let` and `const` have block scope:
+
+```javascript
+function foo() {
+  for (var x = 0; x < 5; x++) {
+    console.log(x);
+  }
+  console.log(x); //no error.  x === 5
+}
+
+function bar() {
+  for (let x = 0; x < 5; x++) {
+    console.log(x);
+  }
+  console.log(x); //ReferenceError: x is no defined
+}
+
+foo();
+bar();
+```
+
+`const` will not allow reassignment of a variable:
+
+```javascript
+const a = 5;
+a = 2; //TypeError: Assignment to constant variable.
+console.log(a);
+```
+
+General rule on usage of `let` and `const`: Use `const` by default, and only `let` if you need to reassign the variable.
 
 ### objects
 
 ### For/of
+
+For-in is for iterating over properties of an object
+
+For-of is for iterating over items in an array
 
 ### this
 
