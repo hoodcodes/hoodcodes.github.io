@@ -1,5 +1,9 @@
 # ES6 Features & Examples
 
+## Reference links
+
+- [w3schools.com ES6 New Features](https://www.w3schools.com/js/js_es6.asp)
+
 ## What's New?
 
 - let & const

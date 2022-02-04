@@ -1,5 +1,9 @@
 # JavaScript ES5 Features & Examples
 
+## Reference links
+
+- [w3schools.com ES5 New Features](https://www.w3schools.com/js/js_es5.asp)
+
 ## What's New?
 
 - "use strict"
