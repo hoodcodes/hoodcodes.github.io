@@ -1,6 +1,30 @@
 # C# Version 3 Reference
 
-LINQ
+## Reference Links
+
+- [Link]()
+
+## Framework Release:
+
+- .Net Framework 3.0/3.5
+
+## Notable News
+
+## What's New
+
+- Implicitly typed local variables
+- Object and collection initializers
+- Auto-Implemented properties
+- Anonymous Types
+- Extension methods
+- Query Expressions
+- Lambda Expressions
+- Expression trees
+- Partial Methods
+
+## New Feature Examples
+
+### LINQ
 
 This is LINQ (using query syntax):
 
