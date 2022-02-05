@@ -1,4 +1,4 @@
-![HoodCodes Reference Topics](assets/TopicsV2.svg)
+![HoodCodes Reference Topics](assets/Topicsv2.svg)
 
 ###### _Note: The above diagram was created in vscode, using the [unofficial Draw.io Extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), which is worth checking out._
 
