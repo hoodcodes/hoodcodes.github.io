@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.png" alt="banner"/>
+  <img src="assets/images/banner.png" alt="banner"/>
 </p>
 
 This is the GitHub home for The Code Garage, a place for sharing information, reference links to other great resources I have found, and my learnings on a wide array of subjects in programming.
@@ -88,6 +88,6 @@ Each of the major cloud providers have free training available to help you prepa
 - [Google Cloud Training](https://community.c2cglobal.com/product-updates)
   - [Google Cloud Developer Training](https://docs.microsoft.com/en-us/learn/roles/developer)
 
-![HoodCodes Reference Topics](assets/Topicsv2.svg)
+![HoodCodes Reference Topics](assets/drawings/Topicsv2.svg)
 
 ###### _Note: The above diagram was created in vscode, using the [unofficial Draw.io Extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), worth checking out!_
