@@ -10,16 +10,15 @@ I have laid out a large number of subjects below which I have either used, or I 
 
 One might ask, "Why do this?" Why create a copy of what is already easily available? Just google it. There are plenty of great resources out there. I agree. And I still encourage making full use of those resources. I came to the conclusion that as I wanted to study the areas in programming and really have them stick in my brain, that I should write about them, because I agree with the notion that `writing is thinking`.
 
-So even if this is not helpful to anyone else but myself that is more than enough reason to work on this programming reference. Being able to organize so much information in my brain in a way to utilize it better, and have a place to go and refresh myself on a subject quickly, even add additional notes anytime, is of great value.
+So even if this is not helpful to anyone else but myself, that is more than enough reason to work on this programming reference. Being able to organize so much information in my brain in a way to utilize it better, and have a place to go and refresh myself on a subject quickly, even add additional notes anytime, is of great value.
 
-In total, I see the following benefits for providing this personal programming reference to include:
+I believe actually that there are many benefits for me to work on this reference, and they include:
 
-- Internalizing all of the important features of this language. The very act of writing them out forces me to think and contemplate on them.
-- Removing all mystery around the subject. Having a full view of the feature landscape eliminates that uneasy feeling that there is functionality available which I do not know about, which I am ignorant of. It is possible to arrive at that place where one can say "that is about everything I need to know" about this area.
-- Having a place to add my own notes, adding my own context and explanations, and possibly also include scenarios where this feature is especially helpful. Including other helpful information around the subject which might also help the information to 'stick' in my brain.
-- Including helpful reference links on features which others have also explained, provided sample code for, expanded upon. Hearing 2 to 3 explanations on a topic from different sources helps give a more well-rounded view.
-- Providing examples which I can use for later practice.
-- Finally, enabling me to arrive at a place where I can move from the internalization of features to the far more interesting application of them. In other words, moving from concrete knowledge transfer of features to the abstract use of them to solve problems.
+- Internalizing all of the important features of a subject, whether it is a language, framework, pattern, practice, or platform. The very act of writing about them out forces me to think and contemplate about the subject at length.
+- Removing mystery around the subject. I don't know about how you feel, but to me, mystery breeds anxiety. I don't like mystery. Having a full view of the feature landscape eliminates that uneasy feeling that there is functionality available which I do not know about, which I am ignorant of. It is possible to arrive at that place where one can say "that is about everything I need to know" about this area.
+- Having a home for adding my own notes, additional context, explanations, and scenarios where this feature is especially helpful.
+- Including helpful reference links on features which others have also explained, provided sample code for, expanded upon. Hearing 2 to 3 explanations on a topic from different sources sometimes helps me to gain a more well-rounded view.
+- Finally, enabling me to arrive at a place where I can move from the internalization of features to the far more interesting application of them. In other words, moving from concrete knowledge transer to abstract application for the purpose of solving real world problems.
 
 **Languages**
 
@@ -45,10 +44,10 @@ In total, I see the following benefits for providing this personal programming r
 
 **API**
 
-- [REST APIs](/rest-api/)
-- [HTTP APIs](/http-api/)
-- [gRPC APIs](/grpc-api/)
-- [GraphQL APIs](/graphql-api/)
+- [REST](/rest-api/)
+- [HTTP](/http-api/)
+- [gRPC](/grpc-api/)
+- [GraphQL](/graphql-api/)
 
 **Database**
 
