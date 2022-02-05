@@ -14,6 +14,8 @@
 **Front End**
 
 - [React](./react/)
+- [HTML](./html/)
+- [CSS](./CSS/)
 
 **Cloud**
 

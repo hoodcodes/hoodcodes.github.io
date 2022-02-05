@@ -10,7 +10,9 @@
 
 ## Notable News
 
-Only supported on .Net 5 and newer
+Only supported on .Net 5 and newer. Themes include: removing ceremony (Top-level statements), separating data from algorithms, and providing more patterns in more places.
+
+Records introduced.
 
 ## What's New
 

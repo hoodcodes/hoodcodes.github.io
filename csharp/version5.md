@@ -10,6 +10,8 @@
 
 ## Notable News
 
+The major attraction to this release in 2012 is `async` and `await`.
+
 ## What's New
 
 - Async features

@@ -10,9 +10,11 @@
 
 ## Notable News
 
+Released with 2017
+
 ## What's New
 
-- out variables
+- Out variables
 - Tuples
 - Discards
 - Pattern matching

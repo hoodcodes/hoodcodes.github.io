@@ -4,10 +4,6 @@
   <img src="assets/logo.png" alt="c#" width="100"/>
 </p>
 
-Short code examples of c sharp features from 1.0 thru to the current version.
-
-For code execution purposes, a .Net 6 Console app was created from the .Net CLI Template library. Over time, this may be upgraded to the latest version of .Net to enable continued demonstration of small code examples.
-
 ### Versions
 
 - [Version 1 (.Net Framework 1.0)](version1.md)
@@ -20,3 +16,10 @@ For code execution purposes, a .Net 6 Console app was created from the .Net CLI 
 - [Version 8 (.Net Core 3)](version8.md)
 - [Version 9 (.Net 5)](version9.md)
 - [Version 10 (.Net 6)](version10.md)
+
+### The .Net Frameworks Evolution
+
+- .NET Framework
+- .NET Core
+- .NET Standard
+- .NET

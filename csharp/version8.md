@@ -10,7 +10,7 @@
 
 ## Notable News
 
-This release is ONLY supported on .Net Core 3.x and newer
+This is the first major release to specifically tarket .NET Core. This release is ONLY supported on .Net Core 3.x and newer.
 
 ## What's New
 

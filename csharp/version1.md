@@ -2,7 +2,7 @@
 
 ## Reference Links
 
-- [Link]()
+- [The history of C#](https://docs.microsoft.com/en-us/dotnet/csharp/whats-new/csharp-version-history)
 
 ## Framework Release:
 
@@ -10,7 +10,15 @@
 
 ## What's New
 
-- FeatureX
+- Classes
+- Structs
+- Interfaces
+- Events
+- Properties
+- Delegates
+- Operators and expressions
+- Statements
+- Attributes
 
 ## New Feature Examples
 

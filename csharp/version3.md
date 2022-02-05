@@ -20,6 +20,7 @@
 - Query Expressions
 - Lambda Expressions
 - Expression trees
+- Extension Methods
 - Partial Methods
 
 ## New Feature Examples
