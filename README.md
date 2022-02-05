@@ -1,4 +1,4 @@
-![HoodCodes Reference Topics](assets/Topics.svg)
+![HoodCodes Reference Topics](assets/TopicsV2.svg)
 
 ###### _Note: The above diagram was created in vscode, using the [unofficial Draw.io Extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), which is worth checking out._
 
@@ -24,7 +24,15 @@
 
 **API**
 
+- [REST APIs](/rest-api/)
+- [HTTP APIs](/http-api/)
+- [gRPC APIs](/grpc-api/)
+- [GraphQL APIs](/graphql-api/)
+
 **Database**
+
+- [SQL](structured-query-language/)
+- [No Sql](nosql/)
 
 ### First Use of this Reference - Installing Prerequisites
 
