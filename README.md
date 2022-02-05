@@ -1,5 +1,3 @@
-# Welcome to The Code Garage
-
 <p align="center">
   <img src="assets/banner.png" alt="banner"/>
 </p>
@@ -23,15 +21,6 @@ I believe actually that there are many benefits for me to work on this reference
 - Having a home for adding my own notes, additional context, explanations, and scenarios where this feature is especially helpful.
 - Including helpful reference links on features which others have also explained, provided sample code for, expanded upon. Hearing 2 to 3 explanations on a topic from different sources sometimes helps me to gain a more well-rounded view.
 - Finally, enabling me to arrive at a place where I can move from the internalization of features to the far more interesting application of them. In other words, moving from concrete knowledge transer to abstract application for the purpose of solving real world problems.
-
-**Languages**
-
-- [C#](./csharp/)
-- [Go](./go/)
-- [Java](./java/)
-- [JavaScript](./javascript/)
-- [Python](./python/)
-- [Typescript](./typescript/)
 
 **Front End**
 
@@ -57,6 +46,15 @@ I believe actually that there are many benefits for me to work on this reference
 
 - [SQL](structured-query-language/)
 - [No Sql](nosql/)
+
+**Languages**
+
+- [C#](./csharp/)
+- [Go](./go/)
+- [Java](./java/)
+- [JavaScript](./javascript/)
+- [Python](./python/)
+- [Typescript](./typescript/)
 
 ### First Use of this Reference - Installing Prerequisites
 
