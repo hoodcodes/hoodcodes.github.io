@@ -1,5 +1,9 @@
 # Welcome to The Code Garage
 
+<p align="center">
+  <img src="assets/banner.png" alt="banner"/>
+</p>
+
 This is the GitHub home for The Code Garage, a place for sharing information, reference links to other great resources I have found, and my learnings on a wide array of subjects in programming.
 
 I created this programming reference initially just for myself, however if anyone else finds it of any use, great.
