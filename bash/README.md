@@ -4,6 +4,16 @@
   <img src="assets/logo.png" alt="c#" width="100"/>
 </p>
 
+## Highlights
+
+- Created:
+- Created By:
+- Characteristics:
+
+### Summary Description
+
+### Shell Script Syntax
+
 There are 2 sets of shell script syntax:
 
 - Bourne - more widely used, and much more flexible

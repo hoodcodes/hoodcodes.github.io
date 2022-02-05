@@ -1,6 +1,16 @@
-# Java Reference From a C# Developer's Perspective
+# Java Reference
 
-This is an opinionated reference on the Java language, however for clarification, I am not going to be bashing this language. More just pointing out that I am looking at Java from the perspective of a C# developer. My interest is to point out the differences between the two languages, showcase strengths and limitations of Java, and provide context and/or background on topics that are interesting to me.
+### Highlights
+
+- Created:
+- Created By:
+- Characteristics:
+
+### Summary Description
+
+### Coming from a C# Developer's Perspective
+
+This is an likely to be a somewhat opinionated reference on the Java language, however for clarification, I have no desire to bash any technology, let alone this language. I must admit I have heard more negative comments about Java than positive, but I am looking to find out for myself the strengths of the language, the finer points, and then understand its limitations. Every language has limitations. Would Java be a better language for certain applications over other languages? But I will be transparent and point out that I am looking at Java from the perspective of a C# developer. My interest is to point out the differences between the two languages, showcase strengths and limitations of Java, and provide context and/or background on topics that are interesting to me.
 
 ### <span style="color: green">Installation of the Java JDK to enable development</span>
 

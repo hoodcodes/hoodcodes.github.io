@@ -1,5 +1,13 @@
 # JavaScript Reference
 
+### Highlights
+
+- Created:
+- Created By:
+- Characteristics:
+
+### Summary Description
+
 Separate folders exist for each majory release of JavaScript beginning with ES5.
 
 ### Versions

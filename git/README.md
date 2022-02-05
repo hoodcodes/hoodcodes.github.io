@@ -1,5 +1,13 @@
 # Git Reference - Tips & Notes
 
+### Highlights
+
+- Created:
+- Created By:
+- Characteristics:
+
+### Summary Description
+
 ### Reference Links:
 
 - [Git Official Page](https://git-scm.com/)

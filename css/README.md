@@ -1,5 +1,13 @@
 # CSS Reference
 
+### Highlights
+
+- Created:
+- Created By:
+- Characteristics:
+
+### Summary Description
+
 ### Tools
 
 ##### Color Pickers

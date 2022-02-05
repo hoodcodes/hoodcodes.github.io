@@ -1,5 +1,13 @@
 # Markdown Cheatsheet and examples
 
+### Highlights
+
+- Created:
+- Created By:
+- Characteristics:
+
+### Summary Description
+
 There are plenty of great examples and cheatsheets available for Markdown.
 
 This is my personal reference sheet with notes and examples.
