@@ -13,3 +13,9 @@
 <img src="../assets/images/simpleUI-cats.png" alt="Simple UI versus users" style="max-width: 50%;">
 
 <hr>
+
+<p align="center">
+  <!--<img src="" alt="" style="max-width: 25%;">
+</P>-->
+
+<hr>

@@ -61,6 +61,18 @@ JSON Example:
 }
 ```
 
+JSON.parse()
+
+```javascript
+
+```
+
+JSON.stringify()
+
+```javascript
+
+```
+
 #### String.trim()
 
 #### Array.isArray()
