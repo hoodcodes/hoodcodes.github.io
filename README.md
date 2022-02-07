@@ -92,4 +92,4 @@ Each of the major cloud providers have free training available to help you prepa
 
 ###### _Note: The above diagram was created in vscode, using the [unofficial Draw.io Extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), worth checking out!_
 
-Hey! You made it to the bottom. Well then here's a small treat for all of you brave souls - [a little programming humor...](/humor/)
+Hey! You made it to the bottom. Well then here's a small treat for all of you brave souls - [a little programming humor](./other/humor/)
