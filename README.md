@@ -81,7 +81,7 @@ Of course these are all optional, depending on whether or not you are interested
 
 Each of the major cloud providers have free training available to help you prepare for their certification exams:
 
-- [Free AWS Sill Builder Training](https://explore.skillbuilder.aws/learn)
+- [Free AWS Skill Builder Training](https://explore.skillbuilder.aws/learn)
   - [Developer Learning Plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/84/developer-learning-plan)
 - [Microsoft Learn: Free Azure Certified Developer Training](https://docs.microsoft.com/en-us/learn/azure/)
   - [Developer Learning Paths](https://docs.microsoft.com/en-us/learn/roles/developer)
@@ -92,4 +92,4 @@ Each of the major cloud providers have free training available to help you prepa
 
 ###### _Note: The above diagram was created in vscode, using the [unofficial Draw.io Extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), worth checking out!_
 
-Hey! You made it to the bottom. Well then here's a small treat for all of you brave souls - [a little programming humor...](./humor/)
+Hey! You made it to the bottom. Well then here's a small treat for all of you brave souls - [a little programming humor...](/humor/)
