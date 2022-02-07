@@ -10,24 +10,24 @@
 
 <hr>
 
-<img src="../assets/images/simpleUI-cats.png" alt="Simple UI versus users" style="max-width: 50%;">
+<img style="padding-top:20px;"  src="../assets/images/simpleUI-cats.png" alt="Simple UI versus users" style="max-width: 100%;">
 
-  <img src="../assets/images/dontreaddocumentation.jpeg" alt="" style="max-width: 50%;">
+  <img style="padding-top:20px;"  src="../assets/images/dontreaddocumentation.jpeg" alt="" style="max-width: 100%;">
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+<img style="padding-top:20px;" src="../assets/images/QuickSideProject.jpeg" alt="" style="max-width: 100%;">
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
-  <!-- <img src=".." alt="" style="max-width: 50%;"> -->
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
