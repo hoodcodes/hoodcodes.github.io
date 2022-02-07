@@ -149,3 +149,13 @@ and then viewed my listing of the identities:
 ```sh
  ssh-add -l
 ```
+
+### Set VSCode as default editor
+
+`git config --global core.editor code`
+
+### Edit Git Config Files
+
+list configs: `git config --list`
+global config: `git config --global --edit`
+local config(note: local can only be used inside a git repository): `git config --local --edit`
