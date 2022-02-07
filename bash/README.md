@@ -49,3 +49,22 @@ Then, being in the same directory in the terminal, I could run the command to ex
 ```Bash
 ./hello.sh
 ```
+
+### Resources to assist in getting up to speed or refresh your knowledge in the art of Bash Scripting
+
+- free month of LinkedIn Learning: get one month of LinkedIn Learning for free! If the link does not work, you could probably google LinkedIn Learning just as easily and be taken to the offer.
+- free 10 day trial of Pluralsight: If you haven't signed up before - head over to Pluralsight right now and you can get a 10 day trial free.
+- [6 free bash scripting courses article](https://medium.com/javarevisited/6-free-courses-to-learn-bash-shell-scripting-in-linux-and-unix-a50461ecd4fe)
+- [LinkedIn Course - Learning Bash Scripting](https://www.linkedin.com/learning/learning-bash-scripting/welcome?u=75159394)
+
+### Man Pages of Interest
+
+| command  | for  | description                                                                                                                                                               |
+| -------- | ---- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| man bash | bash | the manual for Bash. Also available here: [Bash Reference Manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html)                                       |
+| man grep | grep | good for searching for text and patterns. Think regular expressions. More good info here: [Beginner's Guide to Grep Basics](manipulate those dates. online man page here) |
+| man awk  | awk  | awk is good for text processing. More good info here: [30 Examples for Awk Command in Text Processing](https://likegeeks.com/awk-command/)                                |
+| man sed  | sed  | SED is a streaming editor. More good info here: [SED Streaming Editor](https://www.gnu.org/software/sed/manual/sed.html)                                                  |
+| man date | date | manipulate those dates. online man page here: [Manipulate those Dates](https://ss64.com/bash/date.html)                                                                   |
+
+###
