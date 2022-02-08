@@ -56,6 +56,10 @@ That should publish your repo to this new remote.
 whenever you want to publish to your main remote (`origin`) of course, you can continue to use:
 `git push origin <local branch name>`
 
+### <span style="color: green">Track Remote Branch</span>
+
+`git branch -u origin/<remote-branch-name>`
+
 ### <span style="color: green">Creating good commit messages</span>
 
 Set your git config to use a git commit template named .gitmessage:
