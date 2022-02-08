@@ -1,5 +1,9 @@
 # API Development Reference
 
+### Reference Links
+
+- [APIs You Won't Hate](https://apisyouwonthate.com/) - Phil Stergoen
+
 ### Styles
 
 - [REST](rest-api/)

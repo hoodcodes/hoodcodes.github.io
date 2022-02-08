@@ -116,6 +116,10 @@ to apply a stash and keep it in the stash stack:
 
 where `n` is the index of the stashed change
 
+#### Reference Links
+
+- [Git Stash Explained with Details](https://www.golinuxcloud.com/git-stash-explained-in-detail-with-examples/)
+
 ### Setting up to have multiple ssh keys for multiple GitHub accounts
 
 - <TODO: add ssh key gen details for 2 accounts and then elaborate on example adds below>
@@ -171,3 +175,37 @@ and then viewed my listing of the identities:
 list configs: `git config --list`
 global config: `git config --global --edit`
 local config(note: local can only be used inside a git repository): `git config --local --edit`
+
+### Add Aliases to speed up your productivity
+
+Edit your global config by adding these handy aliases.
+
+Taken from this article [10 Git Aliases for faster and productive Git Workflow](https://snyk.io/blog/10-git-aliases-for-faster-and-productive-git-workflow/)
+
+```sh
+[alias]
+	#status
+	s = status
+
+	#checkout branch
+	co = checkout
+
+	#checkout new branch
+	cob = checkout -b
+
+	# list branches
+	del = branch -D
+	br = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+
+	#rollback changes - all previous committed changes are uncommitted so you can resume work on them
+	undo = reset HEAD~1 --mixed
+
+	#clean all changes.  Resets all staged changes
+	res = !git reset --hard
+
+	#push changes to upstream (if you are pushing to the same branch you are in currently)
+	done = !git push origin HEAD
+
+	#log that is readable!
+	lg = !git log --pretty=format:\"%C(magenta)%h%Creset -%C(red)%d%Creset %s %C(dim green)(%cr) [%an]\" --abbrev-commit -30
+```
