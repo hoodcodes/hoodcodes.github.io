@@ -58,6 +58,14 @@ whenever you want to publish to your main remote (`origin`) of course, you can c
 
 ### <span style="color: green">Creating good commit messages</span>
 
+Set your git config to use a git commit template named .gitmessage:
+
+`git config --global commit.template ~/.gitmessage`
+
+[Template that I like](https://gist.github.com/adeekshith/cd4c95a064977cdc6c50)
+
+[Good Reference for Commit Messages from FreeCodeCamp](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
+
 ### <span style="color: green">Create new branch</span>
 
 ### <span style="color: green">list branches</span>
