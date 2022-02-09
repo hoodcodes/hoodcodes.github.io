@@ -16,7 +16,7 @@
 
 <img style="padding-top:20px;" src="../assets/images/QuickSideProject.jpeg" alt="" style="max-width: 100%;">
 
-  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+  <img style="padding-top:20px;"  src="../assets/images/NewProjectOneMonthLater.jpg" alt="" style="max-width: 100%;">
 
   <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
