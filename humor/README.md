@@ -22,7 +22,7 @@
 
   <img style="padding-top:20px;"  src="../assets/images/KillingBugsInCode.jpg" alt="" style="max-width: 100%;">
 
-  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+  <img style="padding-top:20px;"  src="../assets/images/CodeWorksOnFirstGo.jpg" alt="" style="max-width: 100%;">
 
   <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
