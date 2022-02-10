@@ -26,6 +26,42 @@
 
   <img style="padding-top:20px;"  src="../assets/images/Focus.jpg" alt="" style="max-width: 100%;">
 
+  <img style="padding-top:20px;"  src="../assets/images/BugInTheTest.jpeg" alt="" style="max-width: 100%;">
+
+  <img style="padding-top:20px;"  src="../assets/images/automation.png" alt="" style="max-width: 100%;">
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
+  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+
   <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
   <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
