@@ -2,11 +2,9 @@
   <img src="assets/images/banner.png" alt="banner"/>
 </p>
 
-This is the GitHub home for The Code Garage, a place for sharing information, reference links to other great resources I have found, and my learnings on a wide array of subjects in programming.
+This is the GitHub home for The Code Garage, a place for sharing information and reference links to other great resources I have found, my learnings on a wide array of subjects in programming, which I initially created for my personal reference.
 
-I created this programming reference initially just for myself, however if anyone else finds it of any use, great.
-
-By the way, I would encourage any programmer to at least consider creating their own reference information, a sort of 'living journal' for their craft, where they could continue to add notes over time.
+I would encourage any programmer to at least consider creating their own reference information, a sort of 'living journal' for their craft, where they could continue to add notes over time.
 
 I have laid out a large number of subjects below which I have either used, or I want to learn about and use. All have initially started as placeholders to add information, and the challenge to myself is to fill each of them in with information that I find helpful.
 
@@ -58,6 +56,8 @@ I believe actually that there are many benefits for me to work on this reference
 - [Typescript](./typescript/)
 
 ### First Use of this Reference - Installing Prerequisites
+
+_Note: this section speaks to doing installations for purposes of running code examples. I may find this to be too cumbersome an split these out into separate projects. This is a concept at this stage which I am working on. My personal goal is to have solid content for every area by the end of 2022, along with example code that is executable._
 
 After you pull this repo down and open it in VSCode, you may encounter a series of warning messages, around missing dependencies to run certain code.
 

@@ -47,6 +47,10 @@ The implementation is usually for Github.
 
 ## Element: Italic
 
+`*my italic statement*`
+
+_my italic statement_
+
 ## Element: Unordered List
 
 ## Element: Ordered List
@@ -69,7 +73,13 @@ See `practice1.md` for examples in different languages
 
 <span style="color: green"> Some green text </span>
 
-## Element:
+## Element: Quote
+
+You can quote text with a >.
+
+`> This is a quote.`
+
+> This is a quote.
 
 ## Element:
 
