@@ -30,9 +30,9 @@
 
   <img style="padding-top:20px;"  src="../assets/images/automation.png" alt="" style="max-width: 100%;">
 
-  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+  <img style="padding-top:20px;"  src="../assets/images/ClownCoder.jpeg" alt="" style="max-width: 100%;">
 
-  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+  <img style="padding-top:20px;"  src="../assets/images/InternsCode.png" alt="" style="max-width: 100%;">
 
   <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
