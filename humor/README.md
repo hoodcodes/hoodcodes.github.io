@@ -8,6 +8,8 @@
   <img src="../assets/gifs/excellent.gif" alt="excellent" style="max-width: 40%;">
 </P>
 
+[Gifs Galore](GifsGalore.md)
+
 <hr>
 
 <img style="padding-top:20px;"  src="../assets/images/simpleUI-cats.png" alt="Simple UI versus users" style="max-width: 100%;">
