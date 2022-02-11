@@ -4,6 +4,6 @@
 
 - Created:
 - Created By:
-- Characteristics:
+- Characteristics: Allow you to create RESTful APIs with lower latency than REST APIs
 
 ### Summary Description
