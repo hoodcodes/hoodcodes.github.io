@@ -36,9 +36,9 @@
 
   <img style="padding-top:20px;"  src="../assets/images/InternsCode.png" alt="" style="max-width: 100%;">
 
-  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+  <img style="padding-top:20px;"  src="../assets/images/CodeComments.jpeg" alt="" style="max-width: 100%;">
 
-  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+  <img style="padding-top:20px;"  src="../assets/images/CodeMaintainer.jpeg" alt="" style="max-width: 100%;">
 
   <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
