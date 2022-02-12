@@ -16,3 +16,7 @@
 
 - [Postman](./postman)
 -
+
+### Making money from APIs you create
+
+If you have an idea for an API that others would benefit from, you can create it, host it, and then market it over at [RapidAPI.com](https://rapidapi.com). The process to setup your account and add your first API to the marketplace is quick and easy.
