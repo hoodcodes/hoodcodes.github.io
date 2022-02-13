@@ -74,6 +74,12 @@ Set your git config to use a git commit template named .gitmessage:
 
 ### <span style="color: green">list branches</span>
 
+`git branch` to list local branches
+
+`git branch -a` to list local and remote branches
+
+`git branch -r` to list remote branches
+
 ### <span style="color: green">Checkout branch</span>
 
 ### <span style="color: green">Fetching and Pulling</span>
@@ -82,9 +88,23 @@ Set your git config to use a git commit template named .gitmessage:
 
 ### <span style="color: green">commit staged changes</span>
 
+Best Practice - is using a commit message template
+
+if you need to do quick commits inline you can use this:
+
+`git commit -m "my commit message"`
+
 ### <span style="color: green">merge branches</span>
 
+You have 2 branches, branch1 and branch2. You want to merge branch1 changes into branch2.
+
+`git checkout branch2`
+
+`git merge branch1`
+
 ### <span style="color: green">deleting a branch</span>
+
+`git branch -d local_branch_name`
 
 ### <span style="color: green">deleting commits</span>
 
