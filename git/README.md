@@ -102,6 +102,8 @@ You have 2 branches, branch1 and branch2. You want to merge branch1 changes into
 
 `git merge branch1`
 
+TODO: expand on this some more - different scenarios
+
 ### <span style="color: green">deleting a branch</span>
 
 `git branch -d local_branch_name`
