@@ -55,6 +55,18 @@ I believe actually that there are many benefits for me to work on this reference
 - [Python](./python/)
 - [Typescript](./typescript/)
 
+**Other Resources**
+
+- [Git](./git/)
+- [Design Patterns](./designpatterns/)
+- [Algorithms](./algorithms/)
+- [Refactoring](./refactoring/)
+- [IDEs](./ides/)
+- [Containerization](./containerization/)
+- [Markdown](./markdown/)
+- [Books](./books/)
+- [Miscellaneous](./other/)
+
 ### First Use of this Reference - Installing Prerequisites
 
 _Note: this section speaks to doing installations for purposes of running code examples. I may find this to be too cumbersome an split these out into separate projects. This is a concept at this stage which I am working on. My personal goal is to have solid content for every area by the end of 2022, along with example code that is executable._
