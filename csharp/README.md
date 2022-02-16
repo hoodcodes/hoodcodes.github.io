@@ -60,3 +60,7 @@ Interesting side note: You can create your own templates as well.
    3. You should receive a `200` Response with JSON data in the Body
 
 run `Ctrl+C` in the Terminal to shut down the webapi.
+
+### Reference Links
+
+- [ZetCode - Jan Bodnar - fantastic reference site (with tutorials as well) for C#, Go, Java, JavaScript, Python, heck all the things...](https://zetcode.com/)

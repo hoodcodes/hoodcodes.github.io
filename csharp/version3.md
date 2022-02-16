@@ -2,8 +2,6 @@
 
 ## Reference Links
 
-- [Link]()
-
 ## Framework Release:
 
 - .Net Framework 3.0/3.5

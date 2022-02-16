@@ -2,7 +2,7 @@
 
 ## Reference Links
 
-- [Link]()
+- [interpolated strings](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/exploration/interpolated-strings?tutorial-step=1)
 
 ## Framework Release:
 
