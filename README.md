@@ -2,24 +2,6 @@
   <img src="assets/images/banner.png" alt="banner"/>
 </p>
 
-This is the GitHub home for The Code Garage, a place for sharing information and reference links to other great resources I have found, my learnings on a wide array of subjects in programming, which I initially created for my personal reference.
-
-I would encourage any programmer to at least consider creating their own reference information, a sort of 'living journal' for their craft, where they could continue to add notes over time.
-
-I have laid out a large number of subjects below which I have either used, or I want to learn about and use. All have initially started as placeholders to add information, and the challenge to myself is to fill each of them in with information that I find helpful.
-
-One might ask, "Why do this?" Why create a copy of what is already easily available? Just google it. There are plenty of great resources out there. I agree. And I still encourage making full use of those resources. I came to the conclusion that as I wanted to study the areas in programming and really have them stick in my brain, that I should write about them, because I agree with the notion that `writing is thinking`.
-
-So even if this is not helpful to anyone else but myself, that is more than enough reason to work on this programming reference. Being able to organize so much information in my brain in a way to utilize it better, and have a place to go and refresh myself on a subject quickly, even add additional notes anytime, is of great value.
-
-I believe actually that there are many benefits for me to work on this reference, and they include:
-
-- Internalizing all of the important features of a subject, whether it is a language, framework, pattern, practice, or platform. The very act of writing about them out forces me to think and contemplate about the subject at length.
-- Removing mystery around the subject. I don't know about how you feel, but to me, mystery breeds anxiety. I don't like mystery. Having a full view of the feature landscape eliminates that uneasy feeling that there is functionality available which I do not know about, which I am ignorant of. It is possible to arrive at that place where one can say "that is about everything I need to know" about this area.
-- Having a home for adding my own notes, additional context, explanations, and scenarios where this feature is especially helpful.
-- Including helpful reference links on features which others have also explained, provided sample code for, expanded upon. Hearing 2 to 3 explanations on a topic from different sources sometimes helps me to gain a more well-rounded view.
-- Finally, enabling me to arrive at a place where I can move from the internalization of features to the far more interesting application of them. In other words, moving from concrete knowledge transer to abstract application for the purpose of solving real world problems.
-
 **Front End**
 
 - [React](./react/)
@@ -66,6 +48,24 @@ I believe actually that there are many benefits for me to work on this reference
 - [Markdown](./markdown/)
 - [Books](./books/)
 - [Miscellaneous](./other/)
+
+This is the GitHub home for The Code Garage, a place for sharing information and reference links to other great resources I have found, my learnings on a wide array of subjects in programming, which I initially created for my personal reference.
+
+I would encourage any programmer to at least consider creating their own reference information, a sort of 'living journal' for their craft, where they could continue to add notes over time.
+
+I have laid out a large number of subjects below which I have either used, or I want to learn about and use. All have initially started as placeholders to add information, and the challenge to myself is to fill each of them in with information that I find helpful.
+
+One might ask, "Why do this?" Why create a copy of what is already easily available? Just google it. There are plenty of great resources out there. I agree. And I still encourage making full use of those resources. I came to the conclusion that as I wanted to study the areas in programming and really have them stick in my brain, that I should write about them, because I agree with the notion that `writing is thinking`.
+
+So even if this is not helpful to anyone else but myself, that is more than enough reason to work on this programming reference. Being able to organize so much information in my brain in a way to utilize it better, and have a place to go and refresh myself on a subject quickly, even add additional notes anytime, is of great value.
+
+I believe actually that there are many benefits for me to work on this reference, and they include:
+
+- Internalizing all of the important features of a subject, whether it is a language, framework, pattern, practice, or platform. The very act of writing about them out forces me to think and contemplate about the subject at length.
+- Removing mystery around the subject. I don't know about how you feel, but to me, mystery breeds anxiety. I don't like mystery. Having a full view of the feature landscape eliminates that uneasy feeling that there is functionality available which I do not know about, which I am ignorant of. It is possible to arrive at that place where one can say "that is about everything I need to know" about this area.
+- Having a home for adding my own notes, additional context, explanations, and scenarios where this feature is especially helpful.
+- Including helpful reference links on features which others have also explained, provided sample code for, expanded upon. Hearing 2 to 3 explanations on a topic from different sources sometimes helps me to gain a more well-rounded view.
+- Finally, enabling me to arrive at a place where I can move from the internalization of features to the far more interesting application of them. In other words, moving from concrete knowledge transer to abstract application for the purpose of solving real world problems.
 
 ### First Use of this Reference - Installing Prerequisites
 
