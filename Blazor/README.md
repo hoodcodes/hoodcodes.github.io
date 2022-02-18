@@ -45,3 +45,4 @@ At its core - it is a
 ### Courses
 
 - https://www.linkedin.com/learning/blazor-getting-started/blazor-beam-project-setup?u=75159394
+  - Exercise Files: https://github.com/LinkedInLearning/blazor-get-started-2833058
