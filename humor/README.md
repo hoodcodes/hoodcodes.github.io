@@ -1,3 +1,5 @@
+[Home](../)
+
 # Programming Humor
 
 <p align="center">

@@ -1,3 +1,5 @@
+[Home](../)
+
 # gRPC API Reference
 
 ### Highlights

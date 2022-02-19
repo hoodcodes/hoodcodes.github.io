@@ -1,3 +1,5 @@
+[Home](../)
+
 # VSCode Reference - tips & tricks
 
 ### Comparing 2 files

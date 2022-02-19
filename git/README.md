@@ -1,3 +1,5 @@
+[Home](../)
+
 # Git Reference - Tips & Notes
 
 ### Highlights

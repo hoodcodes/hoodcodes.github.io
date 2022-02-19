@@ -1,3 +1,5 @@
+[Home](../)
+
 # GraphQL API Reference
 
 ### Highlights

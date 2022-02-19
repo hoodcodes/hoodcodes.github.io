@@ -1,3 +1,5 @@
+[Home](../)
+
 # ES5 Feature: Strict Mode
 
 ##### Using "strict mode"

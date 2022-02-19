@@ -1,3 +1,5 @@
+[Home](../)
+
 # Blazor Reference
 
 ### Reference Links

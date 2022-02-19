@@ -1,3 +1,5 @@
+[Home](../)
+
 # HTTP API Reference
 
 ### Highlights

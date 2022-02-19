@@ -1,3 +1,5 @@
+[Home](../)
+
 # JavaScript Reference
 
 ### Highlights
