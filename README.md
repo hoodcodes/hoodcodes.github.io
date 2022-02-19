@@ -39,6 +39,7 @@
 
 **Other Resources**
 
+- [WebAssembly](./webassembly/)
 - [Git](./git/)
 - [Design Patterns](./designpatterns/)
 - [Algorithms](./algorithms/)

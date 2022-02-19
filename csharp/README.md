@@ -1,10 +1,10 @@
 [Home](../)
 
-# C Sharp Reference
-
 <p align="center">
   <img src="assets/logo.png" alt="c#" width="100"/>
 </p>
+
+# C Sharp Reference
 
 ### Highlights
 
