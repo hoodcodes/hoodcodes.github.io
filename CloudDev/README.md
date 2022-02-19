@@ -2,6 +2,6 @@
 
 # Cloud Reference
 
-- [AWS Reference](AWS/)
-- [Azure Reference](Azure/)
-- [Google Cloud Reference](GoogleCloud/)
+- [AWS Reference](./AWS/)
+- [Azure Reference](./Azure/)
+- [Google Cloud Reference](./GoogleCloud/)
