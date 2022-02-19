@@ -1,4 +1,4 @@
-[Home](../)
+[Home](../../) > [JavaScript](../)
 
 # ES6 Features & Examples
 

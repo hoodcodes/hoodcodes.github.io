@@ -20,3 +20,7 @@ Separate folders exist for each majory release of JavaScript beginning with ES5.
 - [ES8](ES8/)
 - [ES9](ES9/)
 - [ES10](ES10/)
+
+### Testing
+
+- [Testing in JavaScript](./Testing/)
