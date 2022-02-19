@@ -4,7 +4,7 @@
 
 `Failure is the Mother of Success`
 
-This area is fascinating to me. How can we leverage the failures of others for our benefit?
+Stories about failures in software engineering, and what we can learn about them.
 
 ### Reference Links
 
