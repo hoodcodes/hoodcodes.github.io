@@ -5,7 +5,7 @@
 ### Reference Links
 
 - [APIs You Won't Hate](https://apisyouwonthate.com/) - Phil Stergoen
-- [ProgrammableWeb.com](https://www.programmableweb.com/) - some great resources for getting up to speed in API development. Also a huge directory of publicly available APIs that you can use.
+- [ProgrammableWeb.com API University](https://www.programmableweb.com/api-university/api-developer-training) - some great resources for getting up to speed in API development. Also a huge directory of publicly available APIs that you can use.
 
 ### Styles
 

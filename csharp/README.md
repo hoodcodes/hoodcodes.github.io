@@ -46,8 +46,11 @@ Interesting side note: You can create your own templates as well.
 
 #### Reference Links for dotnet custom templates
 
+- [.Net Default Templates](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new-sdk-templates)
 - [Custom Templates for dotnet new](https://docs.microsoft.com/en-us/dotnet/core/tools/custom-templates)
 - [Create a WedApi with dotnet custom template](https://dotnettutorials.net/lesson/creating-asp-net-core-web-api-project-using-net-core-cli/)
+
+You can create practically any type of project using the default templates for .Net.
 
 ### Creating a WebApi in C# Steps
 
