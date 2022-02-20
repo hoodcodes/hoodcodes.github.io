@@ -2,6 +2,8 @@
 
 # Design Patterns Reference
 
+Also - [Other Principles Here]()
+
 ### Reference Links
 
 - [Design Patterns(Wikipedia)](https://en.wikipedia.org/wiki/Design_Patterns)
@@ -14,19 +16,19 @@
 
 ### Creational
 
-- Singleton
+- Singleton - Having a single Database connection example
 - Factory
 - Abstract Factory
-- Builder
+- Builder - when you want to control creation. Maybe you need to get a unique id attached.
 - Prototype
 
 ### Structural
 
 - Adapter
-- Bridge
+- Bridge - Sounds like the adapter. Different Database implementations example.
 - Composite
 - Decorator
-- Facade
+- Facade - Expose a small set of functionality. Keep it simple.
 - Flyweight
 
 - Proxy
@@ -41,6 +43,6 @@
 - Memento
 - Observer
 - State
-- Strategy
+- Strategy - Notification Strategy as an example
 - Template Method
 - Visitor
