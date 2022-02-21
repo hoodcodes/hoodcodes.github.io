@@ -4,8 +4,7 @@
 
 ### Reference Links
 
-- [2019 Okta Top 10 VS Code Extensions](https://developer.okta.com/blog/2019/05/08/top-vs-code-extensions-for-nodejs-developers)
-  -
+- [My VSCode Extensions](./Extensions.md)
 
 ### Comparing 2 files
 
