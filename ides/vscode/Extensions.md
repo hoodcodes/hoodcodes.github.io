@@ -4,6 +4,10 @@
 
 ### Reference Links
 
+- [Node.JS wikipedia](https://en.wikipedia.org/wiki/Node.js)
+- [2019 Okta Top 10 VS Code Extensions](https://developer.okta.com/blog/2019/05/08/top-vs-code-extensions-for-nodejs-developers)
+- [YouTube 11min: Fireship Recommended Extensions](https://www.youtube.com/watch?v=ifTF3ags0XI)
+
 ### My VSCode Extensions (Last Update: March 2022)
 
 - C#
@@ -37,3 +41,7 @@
 - Remote - Containers
 - Remote - SSH
 - Github Repositories
+- dotenv
+- material icon theme
+- Path Intellisense
+- Rest Client
