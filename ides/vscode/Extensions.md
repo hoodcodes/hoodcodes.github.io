@@ -1,4 +1,4 @@
-[Home](../)
+[Home](../../) > [IDEs](../) > [VS Code](./)
 
 # VS Code Extensions Reference
 

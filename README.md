@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<h2><span style="color: #669999">Reference Notes And Curated Content on Programming Topics</span></h2>
+  <span style="color: #669999">Reference Notes And Curated Content on Programming Topics</span>
 </p>
 
 **Front End**

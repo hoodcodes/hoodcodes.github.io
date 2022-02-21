@@ -1,4 +1,4 @@
-[Home](../../) > [IDEs](../)
+[Home](../../)
 
 # IDEs Reference
 
