@@ -2,6 +2,10 @@
   <img src="assets/images/banner.png" alt="banner"/>
 </p>
 
+<p align="center">
+<h2><span style="color: #669999">Reference Notes And Curated Content on Programming Topics</span></h2>
+</p>
+
 **Front End**
 
 - [React](./react/)
