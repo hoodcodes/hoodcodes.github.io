@@ -75,6 +75,19 @@ For-in is for iterating over properties of an object
 
 For-of is for iterating over items in an array
 
+```javascript
+for (var x = 0; x < 10; x++){
+}
+//ES5 gave us For-Each:
+foreach(var item in items){
+}
+//ES6 gives us For-Of:
+for(item of items){
+}
+```
+
+Benefits of using the For-Of Loop are?
+
 ### this
 
 ### Arrow functions
