@@ -7,6 +7,7 @@ Also - [Other Principles Here]()
 ### Reference Links
 
 - [Design Patterns(Wikipedia)](https://en.wikipedia.org/wiki/Design_Patterns)
+- [YouTube 13min Composition over Inheritance](https://www.youtube.com/watch?v=pQm-BqK2fhc)
 
 ### Overview
 

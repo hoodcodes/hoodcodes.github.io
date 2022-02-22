@@ -32,6 +32,8 @@ Push/Pull - uses positioning to flip elements left or right when going from mobi
 
 ### CSS Grid
 
+Makes layout easy and simpler for creating different responsive layouts.
+
 ##### Color Pickers
 
 - [Google Color Picker](https://g.co/kgs/vfEGQL)

@@ -5,6 +5,7 @@
 ### Reference Links:
 
 - [notes on Douglas Crockford Talk: Managing Programmers](./managingprogrammers.md)
+- [YouTube 55min Douglas Crockford: Programming Style & Your Brian](https://www.youtube.com/watch?v=_EANG8ZZbRs)
 
 ### VIM
 

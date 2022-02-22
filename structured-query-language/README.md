@@ -52,3 +52,7 @@ create unique index on Engagements (Mailing_id) where Mailing_id is not null;
 ```
 
 again - overkill. i got by with a simple table for each kind of engagement for my problem…..
+
+### PostgreSQL Notes
+
+Use ‘having’ in postgresql for setting conditions on a column that is a count. e.g. only give me records where the count is > 1.
