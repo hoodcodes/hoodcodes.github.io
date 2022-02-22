@@ -1,11 +1,11 @@
 [Home](../)
 
-# Git Reference - Tips & Notes
+# Git Reference
 
 ### Highlights
 
-- Created:
-- Created By:
+- Created: 2004
+- Created By: Linus Torvalds
 - Characteristics:
 
 ### Summary Description
@@ -13,18 +13,19 @@
 ### Reference Links:
 
 - [Git Official Page](https://git-scm.com/)
+- [Interview with Linus Torvalds on Creating Git](https://www.linuxfoundation.org/blog/10-years-of-git-an-interview-with-git-creator-linus-torvalds/)
 
-### <span style="color: green">Installation</span>
+### Installation
 
-### <span style="color: green">Setting up ssh certificate</span>
+### Setting up ssh certificate
 
-### <span style="color: green">Usage</span>
+### Usage
 
-#### <span style="color: green">Cloning a Repo</span>
+#### Cloning a Repo
 
-### <span style="color: green">Creating a new Repo</span>
+### Creating a new Repo
 
-### <span style="color: green">Managing Remotes (listing them, removing, adding, pushing to alternate remotes)</span>
+### Managing Remotes (listing them, removing, adding, pushing to alternate remotes)
 
 You can have as many remotes as you like. Most often, we only have one remote, and usually we will give that remote a short name of `origin`. In fact, `origin` is implicitly created when we clone a remote locally.
 
@@ -58,11 +59,11 @@ That should publish your repo to this new remote.
 whenever you want to publish to your main remote (`origin`) of course, you can continue to use:
 `git push origin <local branch name>`
 
-### <span style="color: green">Track Remote Branch</span>
+### Track Remote Branch
 
 `git branch -u origin/<remote-branch-name>`
 
-### <span style="color: green">Creating good commit messages</span>
+### Creating good commit messages
 
 Set your git config to use a git commit template named .gitmessage:
 
@@ -72,9 +73,13 @@ Set your git config to use a git commit template named .gitmessage:
 
 [Good Reference for Commit Messages from FreeCodeCamp](https://www.freecodecamp.org/news/writing-good-commit-messages-a-practical-guide/)
 
-### <span style="color: green">Create new branch</span>
+### Amend last commit
 
-### <span style="color: green">list branches</span>
+`git commit --amend -m “my updated commit msg”`
+
+### Create new branch
+
+### list branches
 
 `git branch` to list local branches
 
@@ -82,13 +87,13 @@ Set your git config to use a git commit template named .gitmessage:
 
 `git branch -r` to list remote branches
 
-### <span style="color: green">Checkout branch</span>
+### Checkout branch
 
-### <span style="color: green">Fetching and Pulling</span>
+### Fetching and Pulling
 
-### <span style="color: green">Stage branch changes</span>
+### Stage branch changes
 
-### <span style="color: green">commit staged changes</span>
+### commit staged changes
 
 Best Practice - is using a commit message template
 
@@ -96,7 +101,7 @@ if you need to do quick commits inline you can use this:
 
 `git commit -m "my commit message"`
 
-### <span style="color: green">merge branches</span>
+### merge branches
 
 You have 2 branches, branch1 and branch2. You want to merge branch1 changes into branch2.
 
@@ -106,23 +111,23 @@ You have 2 branches, branch1 and branch2. You want to merge branch1 changes into
 
 TODO: expand on this some more - different scenarios
 
-### <span style="color: green">deleting a branch</span>
+### deleting a branch
 
 `git branch -d local_branch_name`
 
-### <span style="color: green">deleting commits</span>
+### deleting commits
 
-### <span style="color: green">Merge Conflicts</span>
+### Merge Conflicts
 
-### <span style="color: green">Patches</span>
+### Patches
 
-### <span style="color: green">Cherry Picking</span>
+### Cherry Picking
 
-### <span style="color: green">Branching Strategies</span>
+### Branching Strategies
 
-### <span style="color: green">Hooks</span>
+### Hooks
 
-### <span style="color: green">Stashing</span>
+### Stashing
 
 Stashing your work is a valuable tool. Especially if you get pulled over to look at something else when you are in the middle of some other work. Fortunately, you can create named stashes and then retrieve them. As many as you want. You can have a list of various work stashed away and easily pull them back up.
 
