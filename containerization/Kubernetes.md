@@ -2,6 +2,10 @@
 
 # Kubernetes Reference
 
+- Created: 2015
+- Created By: Google
+- Characteristics: It is an open source system used to manage Linux containers
+
 ##### Reference Links
 
 - [kubernetes.io](https://kubernetes.io/)

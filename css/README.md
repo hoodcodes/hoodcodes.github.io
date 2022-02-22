@@ -37,3 +37,12 @@ Makes layout easy and simpler for creating different responsive layouts.
 ##### Color Pickers
 
 - [Google Color Picker](https://g.co/kgs/vfEGQL)
+
+### CSS Box Model:
+
+- MBPC - Margin Border Padding Content
+- Margin is outter most
+- Border is sandwiched in next
+- Padding is next to content
+- Margin is like giving the Heisman to adjacent objects
+- Padding is like a belt around your objects waist

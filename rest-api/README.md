@@ -58,3 +58,7 @@ PUT vs POST
 ### API Versioning
 
 TODO: API Versioning Resources
+
+### Fakes Sites for Testing API dev
+
+[JSON Placeholder](https://jsonplaceholder.typicode.com/) - fake online REST API for testing / prototyping

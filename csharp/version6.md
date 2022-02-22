@@ -30,4 +30,14 @@ Many smaller features added in this release with Visual Studio 2015 to make C# p
 
 ## New Feature Examples
 
-### FeatureX
+### String Interpolation
+
+Example:
+
+```csharp
+//string.Format as comparison
+var rootUrl = string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Url.Authority, Url.Content("~"));
+
+//string interpolation:
+var rootUrl = $"{Request.Url.Scheme}://{Request.Url.Authority}{Url.Content("~")}";
+```

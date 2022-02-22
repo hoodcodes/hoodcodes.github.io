@@ -92,6 +92,12 @@ Benefits of using the For-Of Loop are?
 
 ### Arrow functions
 
+- Arrow functions provide a shorter syntax compared to function expressions
+- They lexically bind the this value.
+- Are always anonymous
+- if using an expression after an arrow, the return is implicit. (no return is required)
+- function (args) {expression} becomes: arguments => expression
+
 ### Arrow functions and this
 
 ### Array.map()
