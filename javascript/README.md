@@ -24,3 +24,7 @@ Separate folders exist for each majory release of JavaScript beginning with ES5.
 ### Testing
 
 - [Testing in JavaScript](./Testing/)
+
+### Blocking Functions in JavaScript
+
+alert and prompt are 2 of the few blocking functions in JS
