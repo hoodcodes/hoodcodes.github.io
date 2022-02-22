@@ -4,6 +4,8 @@
 
 ### Reference Links:
 
+- [notes on Douglas Crockford Talk: Managing Programmers](./managingprogrammers.md)
+
 ### VIM
 
 - [VIM editor Cheatsheet](https://vim.rtorr.com/)
