@@ -2,6 +2,8 @@
 
 # Books on Programming
 
+[psst... Here are some other books (non-technical) I have made notes for]()
+
 ### Overview
 
 I am building my library of books back up, after having tried going fully digital in the past. I now find having actual books of more value than I previously thought.
