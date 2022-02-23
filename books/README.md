@@ -2,7 +2,7 @@
 
 # Books on Programming
 
-[psst... Here are some other books (non-technical) I have made notes for]()
+[psst... Here are some other books (non-technical) I have made notes for](./non-technical/)
 
 ### Overview
 
