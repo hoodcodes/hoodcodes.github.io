@@ -1,4 +1,4 @@
-[Home](../)
+[Home](../) > [Languages](../languages/)
 
 <p align="center">
   <img src="assets/logo.png" alt="c#" width="100"/>

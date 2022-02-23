@@ -2,9 +2,9 @@
   <img src="assets/images/banner.png" alt="banner"/>
 </p>
 
-<p align="center">
+<h4 align="center">
   <span style="color: #669999">Reference Notes And Curated Content on Programming Topics</span>
-</p>
+</h4>
 
 **Front End**
 
@@ -34,12 +34,13 @@
 
 **Languages**
 
-- [C#](./csharp/)
-- [Go](./go/)
-- [Java](./java/)
-- [JavaScript](./javascript/)
-- [Python](./python/)
-- [Typescript](./typescript/)
+- [Programming Languages](./languages/)
+  - [C#](./csharp/)
+  - [Go](./go/)
+  - [Java](./java/)
+  - [JavaScript](./javascript/)
+  - [Python](./python/)
+  - [Typescript](./typescript/)
 
 **Other Resources**
 
