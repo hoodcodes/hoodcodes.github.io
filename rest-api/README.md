@@ -62,3 +62,30 @@ TODO: API Versioning Resources
 ### Fakes Sites for Testing API dev
 
 [JSON Placeholder](https://jsonplaceholder.typicode.com/) - fake online REST API for testing / prototyping
+
+### 4 Principles
+
+1. data AND functionality - are considered resources. identified by a URI
+2. Fixed set of operations
+   - GET, POST, PUT, DELETE
+3. Resources can be represented in various formats
+   - HTML, XML, plain text, JSON
+4. Communication betw/ client and server is STATELESS
+
+### General Notes
+
+REST APIs are easier to:
+
+- Create
+- Consume
+
+SOAP APIs send a lot of additional information that the client might not care about.
+
+- ONLY XML allowed
+
+Payload: the data sent sent betw/ client and server
+
+LOOSE COUPLING - a feature promoted by REST APIs
+
+- changes and enhancements should not break existing clients
+- allows RESTful APIs to start small and evolve over time
