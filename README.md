@@ -55,6 +55,7 @@
 - [Markdown](./markdown/)
 - [Books](./books/)
 - [Postmortems](./postmortems/)
+- [Productivity Hacks](./productivityhacks/)
 - [Miscellaneous](./other/)
 
 This is the GitHub home for The Code Garage, a place for sharing my learnings and reference links on a wide array of subjects in programming. I encourage anyone to at least consider creating their own reference information, a sort of 'living journal' for their craft, where they can continue to add notes over time.
@@ -80,4 +81,7 @@ Each of the major cloud providers have free training available to help you prepa
 - [Google Cloud Training](https://community.c2cglobal.com/product-updates)
   - [Google Cloud Developer Training](https://docs.microsoft.com/en-us/learn/roles/developer)
 
-And here is something for those who enjoy [a little programming humor](./humor/)
+And here are a couple extra goodies:
+
+- For those who enjoy [a little programming humor](./humor/)
+- [Programmer's Quotes](https://www.codingninja.co.uk/best-programmers-quotes/)
