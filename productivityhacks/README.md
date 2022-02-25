@@ -7,6 +7,7 @@
 ### Keyboard Shortcuts & Practice
 
 - [Typing.io](https://typing.io/)
+- [SpeedCoder](https://www.speedcoder.net/)
 -
 
-### Keyboard
+###
