@@ -72,7 +72,7 @@
 
   <img style="padding-top:20px;"  src="../assets/images/tempworkarounds.jpg" alt="Temporary Workarounds" style="max-width: 100%;">
 
-  <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
+  <img style="padding-top:20px;"  src="../assets/images/HatingOnOthersCode.jpg" alt="" style="max-width: 100%;">
 
   <!-- <img style="padding-top:20px;"  src=".." alt="" style="max-width: 100%;"> -->
 
