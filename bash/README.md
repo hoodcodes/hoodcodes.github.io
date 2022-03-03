@@ -14,6 +14,27 @@
 
 ### Summary Description
 
+### Reference Links
+
+- [Bash online manual](https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html#What-is-Bash_003f)
+- [Bash Hackers wiki](https://wiki.bash-hackers.org/)
+- [LinkedIn Course: Learning Bash Scripting](https://www.linkedin.com/learning/learning-bash-scripting)
+
+### Mac Users
+
+you are by default using an outdated version of BASH.
+
+- article: https://itnext.io/upgrading-bash-on-macos-7138bd1066ba (nice article)
+- mac default is 3.2.57 (2007)
+- because Apple supports GPLv2 (and bash 3.2.57 is last version that supports that). apple does not want to support APLv3.
+
+upgrading to latest version - offers things like programmable completion (that is context specific too).
+
+- my update was to version 5.0.18
+- to install: homebrew install bash (if you get warnings about not having permissions follow directions and then run install again)
+- location of new bash: /usr/local/bin/bash
+- you will have 2 versions on there now - so you need to set the default version to be the new one. (use article above for guidance)
+
 ### Shell Script Syntax
 
 There are 2 sets of shell script syntax:
