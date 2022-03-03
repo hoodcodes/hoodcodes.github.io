@@ -9,7 +9,7 @@
 ## Highlights
 
 - Created:
-- Created By:
+- Created By: Brian Fox
 - Characteristics:
 
 ### Summary Description

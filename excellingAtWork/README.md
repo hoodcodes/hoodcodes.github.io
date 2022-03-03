@@ -18,3 +18,4 @@ My initial list is as follows:
 - Consume all available general documentation about company products and services to get acclimated to business domain, challenges and opportunities and to assist with context to what exists as code.
 - Get comfortable with the CI/CD process.
 - Review existing unit tests.
+-
