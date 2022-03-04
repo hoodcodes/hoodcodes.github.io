@@ -57,8 +57,6 @@
 
   <img style="padding-top:20px;"  src="../assets/images/HonestCoding.jpeg" alt="" style="max-width: 100%;">
 
-  <img style="padding-top:20px;"  src="../assets/images/InternsCode.png" alt="" style="max-width: 100%;">
-
   <img style="padding-top:20px;"  src="../assets/images/Learning.jpeg" alt="" style="max-width: 100%;">
 
   <img style="padding-top:20px;"  src="../assets/images/MessOfAProgram.jpeg" alt="" style="max-width: 100%;">
