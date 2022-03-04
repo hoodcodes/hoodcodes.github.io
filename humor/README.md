@@ -10,7 +10,10 @@
   <img src="../assets/gifs/excellent.gif" alt="excellent" style="max-width: 40%;">
 </P>
 
-[Gifs Galore](GifsGalore.md)
+### Links
+
+- [Gifs Collection](GifsGalore.md)
+- [Imgur Programming Memes](https://imgur.com/search/score?q=programming+memes)
 
 <hr>
 
