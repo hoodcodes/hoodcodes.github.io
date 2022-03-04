@@ -47,18 +47,7 @@ There are seemingly endless resources already available on all of these subjects
 - Including helpful reference links on features which others have also explained, provided sample code for, expanded upon. I have found that hearing 2 to 3 explanations on a topic from different sources is helpful to gain a more well-rounded view.
 - The ultimate goal of abstract application for the purposes of solving real world problems.
 
-### Cloud Training
-
-Each of the major cloud providers have free training available to help you prepare for their certification exams:
-
-- [Free AWS Skill Builder Training](https://explore.skillbuilder.aws/learn)
-  - [Developer Learning Plan](https://explore.skillbuilder.aws/learn/public/learning_plan/view/84/developer-learning-plan)
-- [Microsoft Learn: Free Azure Certified Developer Training](https://docs.microsoft.com/en-us/learn/azure/)
-  - [Developer Learning Paths](https://docs.microsoft.com/en-us/learn/roles/developer)
-- [Google Cloud Training](https://community.c2cglobal.com/product-updates)
-  - [Google Cloud Developer Training](https://docs.microsoft.com/en-us/learn/roles/developer)
-
-And here are a couple extra goodies:
+Couple extra goodies:
 
 - Some [programming humor](./humor/)
 - [Programmer's Quotes](https://www.codingninja.co.uk/best-programmers-quotes/)
