@@ -9,23 +9,14 @@
 **Front End**
 
 - [React](./react/)
-- [HTML](./html/)
-- [CSS](./css/)
 
 **Cloud**
 
-- [Cloud Reference](CloudDev/)
-  - [AWS](/AWS/)
-  - [Azure](/Azure/)
-  - [Google Cloud](/GoogleCloud/)
+- [AWS](/AWS/)
 
 **API**
 
-- [API Development](apis/)
-  - [REST](/rest-api/)
-  - [HTTP](/http-api/)
-  - [gRPC](/grpc-api/)
-  - [GraphQL](/graphql-api/)
+- [REST](/rest-api/)
 
 **Database**
 
@@ -37,30 +28,16 @@
 - [Programming Languages](./languages/)
   - [C#](./csharp/)
   - [Go](./go/)
-  - [Java](./java/)
   - [JavaScript](./javascript/)
-  - [Python](./python/)
   - [Typescript](./typescript/)
 
 **Other Resources**
 
-- [WebAssembly](./webassembly/)
 - [Git](./git/)
-- [Design Patterns](./designpatterns/)
-- [Algorithms](./algorithms/)
-- [Refactoring](./refactoring/)
-- [Testing](./testing/)
-- [IDEs](./ides/)
-- [Containerization](./containerization/)
-- [Markdown](./markdown/)
-- [Books](./books/)
-- [Postmortems](./postmortems/)
-- [Productivity Hacks](./productivityhacks/)
-- [Miscellaneous](./other/)
 
 This is the GitHub home for The Code Garage, a place for sharing my learnings and reference links on a wide array of subjects in programming. I encourage anyone to at least consider creating their own reference information, a sort of 'living journal' for their craft, where they can continue to add notes over time.
 
-The subjects include both those I am acquainted with or that I am eager to pursue learning. I began this project in 2022, and my hope is that I can have all of my notes over time consolidated here by the end of the year.
+The subjects include both those I am acquainted with or that I am eager to pursue learning. I began this project in 2022, and my hope is that I can have all of my notes over time consolidated here by the end of the year. The list above is only a portion of the notes I am working on, and as I have more sections which have enough content to be useful, I will add them as links above.
 
 There are seemingly endless resources already available on all of these subjects, so one might ask, "Why do this?" I came to the conclusion that as I wanted to study the areas in programming and really have them stick in my brain, that I learn and retain information better when I write about them. Other benefits for myself include:
 
@@ -83,5 +60,5 @@ Each of the major cloud providers have free training available to help you prepa
 
 And here are a couple extra goodies:
 
-- For those who enjoy [a little programming humor](./humor/)
+- Some [programming humor](./humor/)
 - [Programmer's Quotes](https://www.codingninja.co.uk/best-programmers-quotes/)
