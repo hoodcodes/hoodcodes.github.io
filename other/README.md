@@ -54,3 +54,7 @@ math.round(6.5) = 6 while math.round(9.5) = 10. why?
 That's called rounding to even (or banker's rounding), which is a valid rounding strategy for minimizing accrued errors in sums (MidpointRounding.ToEven). The theory is that, if you always round a 0.5 number in the same direction, the errors will accrue faster (round-to-even is supposed to minimize that) (a).
 
 Languages that use Bankers' rounding include Intel processors, C#, Python and R, but not Java, C/C++, JavaScript, PHP, Go, Rust or Swift. [Source](https://repo.progsbase.com/repoviewer/no.inductive.idea10.programs/math/0.1.7///BankersRound/#:~:text=Languages%20that%20use%20Bankers'%20rounding,%2C%20Go%2C%20Rust%20or%20Swift.)
+
+### Communication with team
+
+- [MatterMost - open source alt of Slack](https://mattermost.com/)

@@ -28,3 +28,7 @@ Separate folders exist for each majory release of JavaScript beginning with ES5.
 ### Blocking Functions in JavaScript
 
 alert and prompt are 2 of the few blocking functions in JS
+
+### Studying for JavaScript mastery
+
+- [CRAM.com](https://www.cram.com/flashcards/javascript-6663138)
