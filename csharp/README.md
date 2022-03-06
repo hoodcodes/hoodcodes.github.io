@@ -69,3 +69,8 @@ run `Ctrl+C` in the Terminal to shut down the webapi.
 ### Reference Links
 
 - [ZetCode - Jan Bodnar - fantastic reference site (with tutorials as well) for C#, Go, Java, JavaScript, Python, heck all the things...](https://zetcode.com/)
+
+### Random Nuggets
+
+- [Proper way to re-throw exception](https://stackoverflow.com/questions/178456/what-is-the-proper-way-to-rethrow-an-exception-in-c)
+- [C# Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
