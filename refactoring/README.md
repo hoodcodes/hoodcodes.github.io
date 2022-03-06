@@ -4,6 +4,9 @@
 
 ### Reference Links
 
+- [Industrial Logic: Smells To Refactorings Cheatsheet. GREAT](https://www.industriallogic.com/blog/smells-to-refactorings-cheatsheet/)
+- [Steve Smith's Pluralsight Course on Refactorings - Fantastic](https://www.pluralsight.com/courses/refactoring-fundamentals)
+
 ### Books On Refactoring
 
 ### Types of Refactoring
