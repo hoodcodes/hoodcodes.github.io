@@ -84,3 +84,123 @@ run `Ctrl+C` in the Terminal to shut down the webapi.
     - uses HTTP
     - provides all HTTP features (request/response headers, caching, versioning, content formats, URI’s)
     - great for providing services to broad range of clients - mobile, tablet, browsers,
+- Using Directive vs using() statement: <TODO>
+- Boxing vs UnBoxing: <TODO>
+- Yield - 2 forms of use:
+  - `yield return` - used to return the current iteration of a foreach statement or linq query. the position is retained for the next time the iterator function is called.
+  - `yield break` - used to end the iteration. like when there are no more values in an enumeration.
+- Structs
+  - structs are value types. they cannot be inherited from for that reason, as all value types are sealed.
+  - structs can implement interfaces.
+- Interfaces
+  - Interfaces contain methods, properties, events, indexers. Members are automatically public and can NOT contain access modifiers. Members can NOT be static.
+  - They do NOT contain: constants, fields, operators, instance constructors, finalizers or types.
+  - When a class implements an interface, the class or struct must implement all members.
+
+### Popular .Net Interfaces
+
+- ISerialize
+- IDisposable - for resources requiring cleanup, used with using
+- IEnumerable<T> and IEnumerable - for use with foreach and LINQ
+- IComparable<T> and ICompare<T> - for generalized sorting
+- IEquatable<T> and IEqualityComparer<T> - for generalized equality
+- ICollection IList<T> - mutable collections
+- IDictionary<T,K> - lookup collections
+- IQueryable<T> - lets you execute requests against queriable data sources
+
+### Common Collection Types and FYIs
+
+All collections are based on the ICollection Interface.
+
+IList
+
+- Array
+- ArrayList
+- List<T>
+
+ICollection
+
+- Queue
+- ConcurrentQueue<T>
+- Stack
+- ConcurrentStack<T>
+- LinkedList<T>
+
+IDictionary
+
+- HashTable
+- SortedList
+- Dictionary<Tkey, TValue>
+- SortedList<Tkey, TValue>
+- ConcurrentDictionary<TKey, TValue>
+- KeyedCollection<TKey, TValue> - unique - behaves like a list and a dictionary because it is a list of values with keys embedded within the values.
+
+Others -
+
+- NameValueCollection
+- OrderedDictionary
+- StringCollection
+- StringDictionary
+- BitArray
+- BitVector32
+- HybridDictionary
+
+### Types of Searches and the best Collections for them:
+
+- First In, First Out - Queues
+- Last In, First Out - Stacks
+- Sorts - SortedList & SortedList<TKey, TValue> are sorted versions of the Hashtable and Dictionary<TKey, TValue)
+
+Indexes of all Collections are zero-based, except Array - which allows arrays that are not zero-based.
+
+### LINQ
+
+[LINQ Reference](./linq.md)
+
+### Abstract and Virtual Classes
+
+- [C# Corner: Abstract Class & Interface: Two Villains of Every Interview - Part 1](https://www.c-sharpcorner.com/UploadFile/d0e913/abstract-class-interface-two-villains-of-every-interview/)
+- [Abstract Class & Interface: Two Villains of Every Interview - Part 2](https://www.c-sharpcorner.com/UploadFile/d0e913/abstract-class-interface-two-villains-of-every-interview756/)
+
+Why do we want abstract Classes? To provide default functionality and to add abstract methods.
+
+Abstract classes can NOT be instantiated. they have no implementation so their method definition is followed by a semicolon:
+
+```csharp
+public abstract class A
+{
+public abstract void DoWork(int i);
+}
+```
+
+Derived classes must implement all abstract methods.
+
+An abstract class can have non-abstract methods, and this aids in making code more DRY - less code duplication. And if these methods needed updating in the future, you would just update in one place on the abstract class.
+
+Virtual: when an abstract class inherits a virtual method from a base class, the abstract class can override the virtual method with an abstract method. Virtual forces derived classes to provide new implementations for virtual methods.
+
+Example of use of Virtual:
+
+```csharp
+// compile with: /target:library
+public class D
+{
+    public virtual void DoWork(int i)
+    {
+        // Original implementation.
+    }
+}
+
+public abstract class E : D
+{
+    public abstract override void DoWork(int i);
+}
+
+public class F : E
+{
+    public override void DoWork(int i)
+    {
+        // New implementation.
+    }
+}
+```

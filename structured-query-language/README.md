@@ -2,6 +2,8 @@
 
 # SQL Reference
 
+- [A Comparison between MySQL vs. MS SQL Server](https://medium.com/@mindfiresolutions.usa/a-comparison-between-mysql-vs-ms-sql-server-58b537e474be)
+
 ### Highlights
 
 - Created:

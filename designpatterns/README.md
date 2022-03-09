@@ -18,33 +18,37 @@
 
 ### Creational
 
-- Singleton - Having a single Database connection example
-- Factory
-- Abstract Factory
-- Builder - when you want to control creation. Maybe you need to get a unique id attached.
-- Prototype
+- Abstract Factory Pattern: Create instances of classes belonging to different families
+- Builder Pattern: Separate representation and object construction. For when you want to control creation.
+  - Example: When you want to have a unique id attached at creation time.
+- Factory Method Pattern: Create instances of derived classes
+- Prototype Pattern: Clone or copy initialized instances
+- Singleton Pattern: Class with only one single possible instance
+  - Example: Enforcing a single Database connection
 
 ### Structural
 
-- Adapter
-- Bridge - Sounds like the adapter. Different Database implementations example.
-- Composite
-- Decorator
-- Facade - Expose a small set of functionality. Keep it simple.
-- Flyweight
-
-- Proxy
+- Adapter Pattern: Match interfaces of classes with different interfaces
+- Bridge Pattern:: Separate implementation and object interfaces
+  - Example: Different database implementations
+- Composite: Simple and composite objects tree
+- Decorator: Dynamically add responsibilities to objects
+- Facade: Class that represents subclasses and subsystems
+  - Example: Expose a small set of functionality, keeping it simple.
+- Flyweight: Minimize memory usage by sharing as much data as possible with similar objects
+- Proxy: Object that represents another object
 
 ### Behavioral
 
-- Chain of Responsibility
-- Command
-- Interpreter
-- Iterator
-- Mediator
-- Memento
-- Observer
-- State
-- Strategy - Notification Strategy as an example
-- Template Method
-- Visitor
+- Chain of Responsibility: Pass requests between command and processing objects within a chain of objects
+- Command: Encapsulate a method call as an object containing all necessary information
+- Interpreter: Include language elements and evaluate sentences in a given language
+- Iterator: Give sequential access to elements in a collection
+- Mediator: Encapsulates and simplifies communication between objects
+- Memento: Undo modifications and restore an object to its initial state
+- Observer: Notify dependent objects of state changes
+- State: Change object behavior depending on its state
+- Strategy: Encapsulate algorithms within a class and make them interchangeable
+  - Example: Notification strategy
+- Template Method: Define an algorithm skeleton and delegate algorithm steps to subclasses so that they may be overridden
+- Visitor: Add new operations to classes without modifying them

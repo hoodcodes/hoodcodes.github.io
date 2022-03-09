@@ -76,3 +76,8 @@ Languages that use Bankers' rounding include Intel processors, C#, Python and R,
   - Symbolic
   - Declarative
   - Parallel
+
+### Terms
+
+- _Bikeshedding_ - wasting time on trivial details at the expense of more important issues. Coined from a situation where the design of a nuclear power plant was taking place, and the discussion for the materials to use for building a bike shed were taking a disproportionate time away from the design of the actual nuclear power plant.
+-
