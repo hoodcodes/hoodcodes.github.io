@@ -233,9 +233,9 @@ and then viewed my listing of the identities:
 
 ### Edit Git Config Files
 
-list configs: `git config --list`
-global config: `git config --global --edit`
-local config(note: local can only be used inside a git repository): `git config --local --edit`
+- list configs: `git config --list`
+- global config: `git config --global --edit`
+- local config(note: local can only be used inside a git repository): `git config --local --edit`
 
 ### Add Aliases to speed up your productivity
 
