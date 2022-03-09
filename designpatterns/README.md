@@ -2,7 +2,8 @@
 
 # Design Patterns Reference
 
-Also - [Other Principles Here]()
+- [Other Principles](./principles.md)
+- [Model-View Patterns](./modelviewpatterns.md)
 
 ### Reference Links
 

@@ -58,3 +58,21 @@ Languages that use Bankers' rounding include Intel processors, C#, Python and R,
 ### Communication with team
 
 - [MatterMost - open source alt of Slack](https://mattermost.com/)
+
+### Progamming Paradigms (concept or thought pattern):
+
+- [Programming Paradigms](http://people.cs.aau.dk/~normark/prog3-03/html/notes/paradigms_themes-paradigm-overview-section.html)
+- [Wikipedia: Comparison of Programming Paradigms](http://en.wikipedia.org/wiki/Comparison_of_programming_paradigms)
+- Types:
+  - Functional
+  - Imperative
+  - Logic
+  - Object Oriented
+  - Procedural
+  - Event-Driven
+  - Automata
+  - Structured
+  - Machine Code
+  - Symbolic
+  - Declarative
+  - Parallel

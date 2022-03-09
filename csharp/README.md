@@ -75,3 +75,12 @@ run `Ctrl+C` in the Terminal to shut down the webapi.
 - [Proper way to re-throw exception](https://stackoverflow.com/questions/178456/what-is-the-proper-way-to-rethrow-an-exception-in-c)
 - [C# Jagged Arrays](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/arrays/jagged-arrays)
 - [Knowing When to Use Override and New Keywords (C# Programming Guide) | Microsoft Docs](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/knowing-when-to-use-override-and-new-keywords)
+- Difference between WCF vs Web API
+  - **WCF**
+    - uses XML
+    - enables use of other protocols for higher performant processes (named pipes, TCP, UDP).
+    - one way messaging, msg queues, duplex communications
+  - **Web API**
+    - uses HTTP
+    - provides all HTTP features (request/response headers, caching, versioning, content formats, URI’s)
+    - great for providing services to broad range of clients - mobile, tablet, browsers,

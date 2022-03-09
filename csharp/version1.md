@@ -112,3 +112,17 @@ namespace DelegateApp {
   }
 }
 ```
+
+### Sealed Classes
+
+- sealed classes canNOT be used as a base class. (this could make them slightly faster with some run-time optimzations)
+- therefore - it canNOT be an abstract class.
+- they prevent derivation.
+- you could mark a derived method that is overriding a virtual method on a base class as sealed, and that will negate the virtual aspect of the member for any further derived class.
+
+```csharp
+public class D : C
+{
+    public sealed override void DoWork() { }
+}
+```
