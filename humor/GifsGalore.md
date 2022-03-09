@@ -10,7 +10,7 @@
 
   <img src="../assets/gifs/Angry-PC-User.gif" alt="A Bad Day" style="max-width: 100%;">
 
-  <!-- <img src=".." alt="" style="max-width: 100%;"> -->
+  <img src="../assets/gifs/FindingMoreProblems.gif" alt="" style="max-width: 100%;">
 
   <!-- <img src=".." alt="" style="max-width: 100%;"> -->
 

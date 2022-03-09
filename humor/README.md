@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="../assets/gifs/excellent.gif" alt="excellent" style="max-width: 40%;">
+  <img src="../assets/gifs/excellent.gif" alt="excellent" style="max-width: 30%;">
 </P>
 
 ### Links
