@@ -2,6 +2,14 @@
 
 # Git Reference
 
+### Learning Resources
+
+- [Atlassian Git](https://www.atlassian.com/git)
+- [try.github.io](https://try.github.io/)
+- [Udemy - Git Started with Git and GitHub](https://www.udemy.com/course/git-started-with-github/?LSNPUBID=JVFxdTr9V80&ranEAID=JVFxdTr9V80&ranMID=39197&ranSiteID=JVFxdTr9V80-qXTOyPfHdrT7lxnuuHhjIw)
+- [Pluralsight: How Git Works](https://www.pluralsight.com/courses/how-git-works)
+- [Pluralsight: Git Fundamentals](https://www.pluralsight.com/courses/git-fundamentals?clickid=y9b0UzUbRxyOUJMwUx0Mo34GUkizkS29w35W2E0&irgwc=1&mpid=1193463&utm_source=impactradius&utm_medium=digital_affiliate&utm_campaign=1193463&aid=7010a000001xAKZAA2)
+
 ### Highlights
 
 - Created: 2004
@@ -9,6 +17,20 @@
 - Characteristics:
 
 ### Summary Description
+
+### My thoughts on Git Guis vs CLI
+
+I choose as my default to use the CLI for performing Git commands. My reasons include:
+
+- you can just use this one interface for all projects.
+- learn to do it one way - for all IDEs = Simple
+- CLI - always works
+- Built-in Git interfaces with IDEs are all calling the CLI under the covers anyway
+
+For authentication (e.g. GitHub) use SSH if possible instead of HTTPS (user/password approach)
+
+- Less hassle, and you do not need to provide credentials when you push up
+- You can even have multiple SSH keys for different accounts. The key in this case is that once you have your keys added for each account, to add a local git config setting under 'Core' that looks similar to this: `sshCommand = "ssh -i ~/.ssh/mygithubsshkey"`. I have a section about doing this below.
 
 ### Reference Links:
 
@@ -109,13 +131,23 @@ You have 2 branches, branch1 and branch2. You want to merge branch1 changes into
 
 `git merge branch1`
 
-TODO: expand on this some more - different scenarios
+**Scenario**: You are in your branch working away. You get word someone has puched changes up to master. You need to get resynced up:
+
+1. `git checkout master`
+1. `Git pull`
+1. `Git checkout branchname`
+1. `Git merge master`
+
+Note: if you wanted to set your work at the top of the head, instead of `merge`, use `rebase`
 
 ### deleting a branch
 
 `git branch -d local_branch_name`
 
 ### deleting commits
+
+**Scenario**: Remove your latest commit, but leave your changes on disk:
+`git reset HEAD~` ( short for `git reset HEAD~1` )
 
 ### Merge Conflicts
 
