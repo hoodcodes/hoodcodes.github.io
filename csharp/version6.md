@@ -41,3 +41,15 @@ var rootUrl = string.Format("{0}://{1}{2}", Request.Url.Scheme, Request.Url.Auth
 //string interpolation:
 var rootUrl = $"{Request.Url.Scheme}://{Request.Url.Authority}{Url.Content("~")}";
 ```
+
+### Null Propigation
+
+```csharp
+//this:
+if (vendorContactVm.Address.AddressTypeId == 0)
+                {
+
+//Becomes This:
+ if (contactVm.Address?.AddressTypeId == 0)
+                {
+```

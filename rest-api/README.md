@@ -8,6 +8,7 @@
 - Note to Self: listen again to [Oktane17: Designing Beautiful REST + JSON APIs](https://www.youtube.com/watch?v=MiOSzpfP1Ww)
 - [Dr. Roy Fielding's Dissertion](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
 - [REST APIs must be Hyper-Text Driven](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)
+- [The Fundamentals of REST API Design](https://stormpath.com/blog/fundamentals-rest-api-design)
 
 ### Highlights
 
@@ -16,6 +17,8 @@
 - Characteristics: Stands for Representational State Transfer, and is an architectually pattern for creating web services.
 
 ### Summary Description
+
+REST is an architectural style, not a specification. There is no governing body and so therefore no hard and fast rules.
 
 ### Status Codes
 
@@ -71,6 +74,25 @@ TODO: API Versioning Resources
 3. Resources can be represented in various formats
    - HTML, XML, plain text, JSON
 4. Communication betw/ client and server is STATELESS
+
+- ### 6 Advantages
+- Scalability - meaning - how easy it is for RESTful APIs to adapt and grow and be plugged into other systems
+- Use of HTTP - easy to plug into other applications
+- Independency - you can deploy or scale down parts of an application without having to shut down the entire application or an entire web server farm
+- Reduced latency due to caching - RESTful APIs prioritize caching, which helps improve latency.
+- Security - the HTTP spec lets you spot security via certain HTTP headers, so you can leverage this to make your API secure
+- Encapsulation - there are parts of the application that do not need to be exposed to a REST caller, and REST as an architecural style allows you to hide those details and only show things you want to show.
+
+### REST API Guidelines
+
+- Keep your REST API resources coarse grained, not fine grained
+- for a given resource, write a method that takes the resource itself as an argument, and the method contains all the functionality needed for the resource.
+- Work with collection and instance resources
+- Use POST to take advantage of partial updates. you can you POST for creation and updates. While you could use PUT for creation - but with PUT you must pass over ALL the fields - and maybe you do not need to, or want to. In that case you would be helping to limit the traffic and that can save $$ when you get to high volumes.
+  - PUT is idempotent btw - so that is why it requires all of the fields for creation
+- Have REST API documents link to other documents based on the notion of a media type.
+  - the client should specify in the accept headers what media type you want
+  - the server should send in the content-type headers what data format you are returning
 
 ### General Notes
 
