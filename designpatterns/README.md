@@ -21,6 +21,10 @@
 - Abstract Factory Pattern: Create instances of classes belonging to different families
 - Builder Pattern: Separate representation and object construction. For when you want to control creation.
   - Example: When you want to have a unique id attached at creation time.
+  - used heavily in Asp.Net Core in the startup.cs file
+  - Can use it in testing. specifically for building test data.
+  - similar to the Factory Pattern but the interface is much more flexible.
+  - utilizes chaining.
 - Factory Method Pattern: Create instances of derived classes
 - Prototype Pattern: Clone or copy initialized instances
 - Singleton Pattern: Class with only one single possible instance

@@ -80,4 +80,58 @@ Languages that use Bankers' rounding include Intel processors, C#, Python and R,
 ### Terms
 
 - _Bikeshedding_ - wasting time on trivial details at the expense of more important issues. Coined from a situation where the design of a nuclear power plant was taking place, and the discussion for the materials to use for building a bike shed were taking a disproportionate time away from the design of the actual nuclear power plant.
--
+
+### Advantages of an interpreted language:
+
+- do not need to specify types
+- do not need a compiler to translate the code into machine language code.
+- platform independent
+- smaller executable program size
+- dynamic scoping
+- source code can be read and copied
+
+### Disadvantages of interpreted languages:
+
+- no static type-checking can make programs less reliable.
+- suseptible to code-injection attacks
+- slower execution compared to direct native machine code execution
+- Source code can be reverse-engineered due to its nature that it can be read and copied. obfuscation can help with this.
+
+### Interpreted vs. Compiled
+
+the ‘mode of execution’ is either interpreted or compiled.
+
+Many languages can be both interpreted and compiled.
+
+Most so-called interpreted languages use an intermediate representation which combines compiling and interpreting. examples include:
+
+- JavaScript
+- Python
+- Ruby
+
+Interpreted languages:
+
+- Lisp
+- Perl
+- PHP
+- Smalltalk
+- R
+- PowerShell
+
+Languages that are usally compiled to byte code:
+
+- Java
+- .Net Framework
+- Python
+- Ruby
+- Lisp
+- Haskell
+- Fortran
+- Pascal
+- Rust
+- Go
+- F#
+- COBOL
+- BASIC
+
+**Imperative** programming is about telling your machine how to do something, while **Declarative** programming really is about telling your machine what you would like to happen in order to do something.
