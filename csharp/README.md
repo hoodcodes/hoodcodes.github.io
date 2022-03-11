@@ -69,6 +69,7 @@ run `Ctrl+C` in the Terminal to shut down the webapi.
 ### Reference Links
 
 - [ZetCode - Jan Bodnar - fantastic reference site (with tutorials as well) for C#, Go, Java, JavaScript, Python, heck all the things...](https://zetcode.com/)
+- [Awesome C#](https://github.com/danperor/awesome-csharp)
 
 ### Random Nuggets
 
