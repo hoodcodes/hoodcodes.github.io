@@ -15,7 +15,7 @@ Separate folders exist for each majory release of JavaScript beginning with ES5.
 ### Reference Links
 
 - [JavaScript for Cats - an introduction for new programmers](http://jsforcats.com/)
-- [Kyle Simpson - Getify](https://me.getify.com/)
+- [Kyle Simpson - Getify](https://me.getify.com/) and with [O'Reilly](https://www.oreilly.com/pub/au/4853)
 -
 
 ### Versions

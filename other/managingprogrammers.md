@@ -1,3 +1,5 @@
+[Home](../) > [Other](./)
+
 # Managing Programmers by Douglas Crockford
 
 - [YouTube 72min Managing Programmers by Douglas Crockford at Silicon Valley Code Camp](https://www.youtube.com/watch?v=NPlMcUxFOlY)

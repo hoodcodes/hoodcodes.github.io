@@ -135,3 +135,7 @@ Languages that are usally compiled to byte code:
 - BASIC
 
 **Imperative** programming is about telling your machine how to do something, while **Declarative** programming really is about telling your machine what you would like to happen in order to do something.
+
+### Open-Source Licensing
+
+[Kyle Simpson uses the MIT License exclusively](https://getify.mit-license.org/) for his projects.

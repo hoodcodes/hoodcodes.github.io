@@ -13,6 +13,19 @@
 
 ### Code Smells
 
+Code Smell - when the code is not clean, testable and predictable
+
+Does the method have:
+
+- Clear Purpose
+- Good Name - single purpose
+- Focused Code - all code in method should JUST do what its purpose is
+- Code in the method should be short (e.g. one screen)
+- Automated Code Test
+- Predictable Result
+
+Methods are actions so they should be Verbs
+
 - Bloaters
   - Long method
   - Large Class
