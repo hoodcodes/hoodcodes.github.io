@@ -7,11 +7,22 @@
 
 ### Highlights
 
-- Created:
+- Created: 1989
 - Created By:
-- Characteristics:
+- Characteristics: Most taught language in IT schools. Interpreted language(do not need to specify types). can get up and running quickly. used by many big sites - scales. scientific applications. Can be OO or used as a procedural language.
 
 ### Summary Description
+
+You can create:
+
+- web apps
+- server processes and automation
+- data sciences
+- ML and AI
+
+Used a lot in education - easy syntax to read and understand - good first language to learn.
+
+Downside to Python - not fast. PHP much faster for example. But PHP is mainly directed to web development. Today with the speed of hardware, many companies not dissuaded from using it.
 
 ### Installing Python
 

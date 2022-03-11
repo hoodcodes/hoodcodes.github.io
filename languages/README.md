@@ -26,3 +26,5 @@ ToDo: list out the notable features that distinquish one language from another
 ### Languages of interest to learn more about
 
 - Scala
+
+- Rust - created 2010. written by the folks at Mozilla. Systems level language. concurrency built in. Syntactically similar to C++ but includes better memory safety while maintaining performance. strong typing. Creates fast and secure applications. takes advantage of multi-core processors. multi-paradign language.

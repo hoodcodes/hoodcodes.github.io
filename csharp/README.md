@@ -34,6 +34,41 @@
 - .NET Standard
 - .NET
 
+### C# Fundamentals
+
+- CLR Common Language Runtime: The CLR manages your application - memory management - operating system and hardware independence - Language independence
+- Takes the "intermediate instructions" (MSIL) inside an executable, after it has been compiled, and transforms them into native instructions that work on the real hardware where the program is running.
+- FCL Framework Class Library A library of functionality to build applications
+- It is the FCL that you will interact with on a day to day basis, because it's the FCL that contains reusable software that you use to build applications.
+  - BCL Base Class Library A subset of the FCL (contained in the FCL).
+- csc.exe The C# compiler. Takes your C# code and transforms it into MSIL (MS Intermediate Language), aka an assembly.
+- MSIL defines instructions for the CLR. Its then the CLR's job to transform those instructions into instructions that the CPU will understand.
+- C# is strongly typed and case sensitive
+- Class Is a blueprint for creating objects Can also be used to type a variable - A Variable can refer to any object of the same type
+- Classes are references types Variables hold a pointer value
+- Classes have access modifiers as well: KEYWORD VISIBILITY Public Everywhere Private Only in the same class Internal Only in the same assembly (default)
+- Constructor A special method used when we create an instance of the class using the "new" keyword.
+- Encapsulation Enclosing or hiding details
+- You typically want to encapsulate your data inside of an object (class), or in other words keep it hidden/non-accessible. Encapsulation can also be the concept of "surrounding" something... putting information together, into a single context and one place.
+- Access Modifiers
+  - Public can be accessed outside of class
+  - Private only accessible from code inside the same class
+- If an access modifier is not explicity specified, the default is Private.
+- Statics Use static members of a class without creating an instance.
+- Static is a keyword that you can apply to a method or field.
+- Assemblies Are the files the C# compiler creates for us, and inside of an assembly is the code we've written for our application.
+- Assemblies are .exe or .dll files
+  - Contain metadata about all types inside
+
+EXE (executable)
+Is a file that you can execute directly by double-clicking on the file in Windows, or using the name of the file from the command line.
+
+DLL (Dynamic Link Library)
+Unlike an exe, dlls can not be executed directly but another program can load a dll and use the code inside. One reason to put code inside of a DLL is when you are writing code that you want to re-use in multiple applications. A good example of re-use is the .Net Framework itself.
+
+Global Assembly Cache (GAC) A central location to store assemblies for a machine
+Reference Type Variables store a reference to an object
+
 ### Using `dotnet new` custom templates
 
 At the CLI, run the following to see the list of custom templates available with the `dotnet new` command:
@@ -122,9 +157,14 @@ All collections are based on the ICollection Interface.
 IList
 
 - Array
+
+  - Manage a collection of variables. - are always a reference type, and are type safe - have a fixed size (specified upon creation) - are always 0 based
+
 - ArrayList
+  - are not fixed size - contains list of objects, so not type safe - they are boxed and unboxed, which is inefficient
 - List<T> (replacing ArrayList) (Non-Associative Collection)
   - Lookup Efficiency: Index: O(1) Value: O(n)
+  - leverages generics (is type-safe version of ArrayList) - no boxing or unboxing, improved performance - will generate compile-time errors if wrong type added, helpful
 
 ICollection
 
@@ -235,3 +275,52 @@ public class F : E
     }
 }
 ```
+
+### Generics
+
+Generics refers to the technique of writing the code for a class without specifying the data type(s) that the class works on.
+
+You specify the data type when you declare an instance of a generics class. This allows a generics class to be specialized for many different data types while only having to write the class once.
+
+A great example are the many collection classes in .NET. Each collection class has it's own implementation of how the collection is created and managed. But they use generics to allow their class to work with collections of any type.
+
+- Use generic types to maximize code reuse, type safety, and performance.
+- The most common use of generics is to create collection classes.
+
+Generics allow you to delay the specification of the data type of programming elements in a class or a method, until it is actually used in the program. In other words, generics allow you to write a class or method that can work with any data type. It helps you to maximize code reuse, type safety, and performance.
+
+### Access Modifiers
+
+An access modifier defines the scope and visibility of a class member.
+
+- public: The type or member can be accessed by any other code in the same assembly or another assembly that references it.
+- private: The type or member can only be accessed by code in the same class.
+- protected: The type or member can only be accessed by code in the same class or in a derived class.
+- internal: The type or member can be accessed by any code in the same assembly, but not from another assembly.
+- protected internal: The type or member can be accessed by any code in the same assembly, or by any derived class in another assembly.
+
+### Other C# General Knowledge
+
+**Enums** - An enum creates a value type. Its a good way to create 'named constants'. The underlying data type is int by default (zero based, but can set to 1 based or any other integer).
+
+**Fields** (variables) & **Properties** - are all about state (managing the state of your data/objects)
+
+**Methods** - define behavior - always have a return type - void if no value returned - always has 0 or more parameters - use "params" keyword to accept a variable number of parameters (compiler will take all of the values and package them up in an array and pass that array to the method "params" parameter) - params is always the last parameter of a method - the method "signature" consists of the name of the method plus the number & types of the parameters that the method takes.
+
+**Delegate** - A delegate is a type that defines a method signature, and can provide a reference to any method with a compatible signature. You can invoke (or call) the method through the delegate. Delegates are used to pass methods as arguments to other methods. - is a type that references methods (that means you can create variables that encapsulate executable code) - you can invoke the variable just like you would invoke a method. - delegates can create variables that point at methods that have the same signature & return type
+
+**Events** - normal .net convention says to always pass 2 parameters: 1. the sender of the event 2. the arguments (or all of the needed information/data) - Events enable a class or object to notify other classes or objects when something of interest occurs. The class that sends (or raises) the event is called the publisher and the classes that receive (or handle) the event are called subscribers.
+ex: static void OnNameChanged(object sender, NameChangedEventArgs args) { // do whatever }
+
+**Using statement** - will make sure that an object is properly disposed and resources are freed, even if there is an exception. Behind the scenes, the c# compiler will essentially setup a try/finally to make sure that the object is always disposed of (properly closed/displosed). This ensures that your data is fully flushed out to disk, and files will be unlocked. - the only managed resource in .net is "memory". It keeps track of what you are using and tries to clean up what you are not (similar to removing files from your harddrive to reclaim room). Other resources are unmanaged-resources (like a data file, streams and/or database connections). - if you need to do exception handling, then you would use a try/catch/finally block instead.
+
+**Abstract Class** - is a class that you cannot instantiate, because it is not fully implemented. - CAN have some implementation details. - It uses the "abstract" keyword in the Type definition. To instantiate any type of Abstract class, you will need to derive (inherit) from it and provide an implementation for any abstract members. This would then create a "Concrete Type", or a type that you can instantiate.
+
+**Abstract Types & Concrete Types** - You cannot instantiate Abstract types. - You can only instantiate Concrete types
+
+**Interface** (an API for an object) - contain no implementation details, defines only the signatures of methods, events & properties. - Any object that implements an Interface is guarenteed to have the members an interface describes. - An interface represents a contract, in that a class that implements an interface must implement every aspect of that interface exactly as it is defined.
+
+One HUGE difference between Abstract and Interface classes: - when I define a class, I can only inherit from a single base class. But I can implement as many interfaces as I'd like (can inherit 1 interface, or 100)! Can also inherit from 1 base class AND implement multiple interfaces.
+
+SO, the interface is the ultimate abstraction, because an Interface allow you to define the API your software needs without defining any of the implementation details. And because any class or struct can inherit any interface, interfaces are extremely flexible.
+LINQ stands for "Language Integrated Query"

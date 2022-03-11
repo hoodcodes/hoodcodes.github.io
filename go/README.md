@@ -4,9 +4,9 @@
 
 ### Highlights
 
-- Created:
-- Created By:
-- Characteristics:
+- Created: 2007
+- Created By: Google
+- Characteristics: Has concurrecy and parallelism built in. Made by the Google Guys. Very fast, simple and efficient. one motivation for creating it was frustation with the complexity of the C++ language. has garbage collection. productive and readable.
 
 ### Summary Description
 

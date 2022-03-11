@@ -4,9 +4,9 @@
 
 ### Highlights
 
-- Created:
+- Created: 1995
 - Created By:
-- Characteristics:
+- Characteristics: Object oriented
 
 ### Summary Description
 
