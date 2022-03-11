@@ -110,28 +110,52 @@ run `Ctrl+C` in the Terminal to shut down the webapi.
 
 ### Common Collection Types and FYIs
 
+http://geekswithblogs.net/BlackRabbitCoder/archive/2011/06/16/c.net-fundamentals-choosing-the-right-collection-class.aspx has provided me much of the information.
+
+The motivation to be more familiar with the collections available from the .Net BCL is so you can apply the proper container for the problem one is solving that results in more performant code.
+
+What is an Associative Collection? They store a value in the collection by providing a key that is used to add/remove/lookup an item. Think key/value pairs.
+
 All collections are based on the ICollection Interface.
 
 IList
 
 - Array
 - ArrayList
-- List<T>
+- List<T> (replacing ArrayList) (Non-Associative Collection)
+  - Lookup Efficiency: Index: O(1) Value: O(n)
 
 ICollection
 
-- Queue
+- Queue<T> First in, First Out (Non-Associative Collection)
+
+  - Lookup Efficiency: Front: O(1)
+
 - ConcurrentQueue<T>
-- Stack
+- Stack<T> List in, First Out (Non-Associative Collection)
+
+  - Lookup Efficiency: Top: O(1)
+
 - ConcurrentStack<T>
-- LinkedList<T>
+- LinkedList<T> (Non-Associative Collection)
+  - Lookup Efficiency: Value: O(n)
+
+Concurrent Collections (.Net 4.0) - when you have multi-threaded read/write access to a collection
+
+- ConcurrentQueue (FIFO)
+- ConcurrentStack (LIFO)
+- ConcurrentBag unordered collection of objects, helpful for when a thread may be a reader and writer
 
 IDictionary
 
 - HashTable
 - SortedList
-- Dictionary<Tkey, TValue>
-- SortedList<Tkey, TValue>
+- Dictionary<Tkey, TValue> (replacing Hashtable) (Associative Collection)
+  - Lookup Efficiency: Key: O(1)
+- SortedDictionary<TKey, TValue> (Associative Collection)
+  - Lookup Efficiency: Key: O(log n)
+- SortedList<Tkey, TValue> (Associative Collection)
+  - Lookup Efficiency: Key: O(log n)
 - ConcurrentDictionary<TKey, TValue>
 - KeyedCollection<TKey, TValue> - unique - behaves like a list and a dictionary because it is a list of values with keys embedded within the values.
 
@@ -144,6 +168,12 @@ Others -
 - BitArray
 - BitVector32
 - HybridDictionary
+- HashSet<T> (Non-Associative Collection)
+
+  - Lookup Efficiency: Key: O(1)
+
+- SortedSet<T> (Non-Associative Collection)
+  - Lookup Efficiency: Key: O(log n)
 
 ### Types of Searches and the best Collections for them:
 
