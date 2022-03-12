@@ -1,5 +1,35 @@
 [Home](../) > [JavaScript](./)
 
+# JQuery Reference
+
+https://jquery.com/
+
+JQuery is a framework implemented on top of JavaScript.
+
+size of JQuery today: 32kB minified
+
+Features of JQuery:
+
+- HTML/DOM manipulation. traversing and modifying the DOM.
+- CSS manipulation.
+- HTML event methods. binding methods
+- Effects and animations.
+- AJAX support.
+- Utilities (e.g. feature detection)
+
+created in 2006.
+
+developers raved about its ease of use. One could write less code
+
+cross browser compatibility - it mitigated many legacy browser JS compatibility issues
+
+made Json parsing easy
+
+extensible through plug-ins, n number of free plugins (e.g. JQuery UI, JQuery Mobile)
+
+Sites that state JQuery not really necessary and why:
+http://youmightnotneedjquery.com/
+
 # JQuery Cheatsheet
 
 jQuery Cheat Sheet

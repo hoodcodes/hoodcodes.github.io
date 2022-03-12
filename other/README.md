@@ -139,3 +139,9 @@ Languages that are usally compiled to byte code:
 ### Open-Source Licensing
 
 [Kyle Simpson uses the MIT License exclusively](https://getify.mit-license.org/) for his projects.
+
+### Casing
+
+- Camel casing: first letter first word is lower case, all other first letters capitalized
+- Pascal casing: all first letters capitalized
+- Hungarian notation: where you prefix a variable name to indicate its kind, or type. e.g. sName, iIndex
