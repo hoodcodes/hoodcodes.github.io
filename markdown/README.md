@@ -18,7 +18,7 @@ The implementation is usually for Github.
 
 ### Reference Links
 
-- [Metadata and Markdown template for .NET docs](https://docs.microsoft.com/en-us/contribute/dotnet/dotnet-style-guide) - helpful guidelines for putting together a publishable document written in markdown
+- [Metadata and Markdown template for .NET docs](https://docs.microsoft.com/en-us/contribute/dotnet/dotnet-style-guide) - helpful guidelines for putting together a publishable document written in markdown -[How to Write Beautiful and Meaningful README.md](https://medium.com/@silentlad/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991)
 
 ### My most common used marddown elements
 
