@@ -18,7 +18,7 @@
 
 ### Summary Description
 
-### My thoughts on Git Guis vs CLI
+### My thoughts on Git Gui's vs CLI
 
 I choose as my default to use the CLI for performing Git commands. My reasons include:
 
@@ -41,9 +41,11 @@ For authentication (e.g. GitHub) use SSH if possible instead of HTTPS (user/pass
 
 ### Setting up ssh certificate
 
-### Usage
+## Usage
 
 #### Cloning a Repo
+
+`git clone myGitRepoUrl.git`
 
 ### Creating a new Repo
 

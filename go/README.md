@@ -15,7 +15,7 @@
 - [Go by Example](https://gobyexample.com/)
 - [My 5 favourite features of Go and how to use them](https://making.pusher.com/my-5-favourite-features-of-go-and-how-to-use-them/)
 - [Comparing Exilir and Go](https://www.cloudbees.com/blog/comparing-elixir-go)
--
+- [Callicoder Github - Golang Tutorials with simple examples](https://github.com/callicoder/golang-tutorials). Good resource created by Rajeev Singh
 
 ### Your First Go Program
 
