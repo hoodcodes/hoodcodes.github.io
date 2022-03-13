@@ -21,6 +21,25 @@
 
 REST is an architectural style, not a specification. There is no governing body and so therefore no hard and fast rules.
 
+- a goal here is to de-couple, or abstract out, the implementation details to the underlying system for an api.
+- your api is focused on providing resources and that allows the consumer to add functionality to their app later without need to update / add to the api
+- Cutting Edge of Rest today - modeling the data better, these schemas help with that:
+  - HAL
+    - https://apigility.org/documentation/api-primer/halprimer
+    - https://restfulapi.net/hateoas/
+  - JSON-API
+    - https://jsonapi.org/
+  - Ion
+    - https://ionspec.org/
+    - https://recaffeinate.co/post/modeling-json-api-with-ion/
+- advantages
+  - decoupled client and server
+  - API can evolve over time
+  - Reuses HTTP
+- disadvantages
+  - not a single spec show ‘how’ apis should be built
+  - big payloads and ‘chattiness’ (this was the big motivation behind Facebook’s GraphQL initiative)
+
 ### Status Codes
 
 - 1xx: Informational

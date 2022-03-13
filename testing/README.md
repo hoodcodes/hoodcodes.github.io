@@ -44,3 +44,24 @@ why do we write bad code ? because we are in a hurry. 2. it is impossible to wri
 ### BDD - Behavior Driven Development
 
 ### TDD vs. BDD - Which is Better?
+
+### Testing in .Net
+
+#### Moq
+
+#### XUnit vs. NUnit
+
+XUnit was written by the fine folks that built NUnit. There are efficiencies therefore from the lessons learned, such as test isolation. They wanted to codify a set of rules to establish a testing standard. (ref: https://engineering.thetrainline.com/an-introduction-to-xunit-moq-and-autofixture-995315f656f)
+
+XUnit is more succinct with its setup code.
+
+Tests can be broken down into Fact or Theory.
+
+Fact: always true
+Theory: only true for certain sets of data
+Test isolation is best achieved by not sharing contexts between tests.
+
+If you still want to share contexts between tests, you can do so 2 ways:
+
+- create the objects in the ctor with implementing IDisposable, so you can clean up anything needed.
+- Use class fixtures. Achieved by implementing IClassFixture. The fixture is cleaned up after the tests finish executing.

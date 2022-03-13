@@ -73,3 +73,12 @@ Candidates should be able to describe, for any of the data structures above:
 - the big-O performance of those operations (e.g. logarithmic, exponential)
 - how you traverse them to visit all their elements, and what order they're visited in
 - at least one typical implementation for the data structure
+
+Some of these may be duplication(TODO - Edit), goal - be able to quickly answer the following questions below:
+
+- Explain quickly and concisely the significant projects I have worked on
+- What have I failed in - what did I learn?
+- What am I proud of accomplishing - explain why.
+- What am I looking for in a new opportunity?
+- Where am I interested in going careerwise in the next couple of years?
+- My top questions for a prospective employer

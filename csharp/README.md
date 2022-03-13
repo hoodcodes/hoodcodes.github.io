@@ -14,6 +14,12 @@
 
 ### Summary Description
 
+### How is .Net Code Compiled?
+
+<p align="center">
+  <img src="./DotNetCompilationGraphic.png" alt="How Dot Net Code is Compiled#" width="100%"/>
+</p>
+
 ### Versions
 
 - [Version 1 (.Net Framework 1.0)](version1.md)

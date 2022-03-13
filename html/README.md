@@ -27,3 +27,9 @@
 - POST requests do not remain in the browser history
 - POST requests cannot be bookmarked
 - POST requests have no restrictions on data length
+
+### Sectioning content elements and friends
+
+<p align="center">
+  <img src="./HTML5-element-flowchart.png" alt="html 5 element flowchart" width="100%"/>
+</p>
