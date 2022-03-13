@@ -9,6 +9,7 @@
 - [Dr. Roy Fielding's Dissertion](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
 - [REST APIs must be Hyper-Text Driven](https://roy.gbiv.com/untangled/2008/rest-apis-must-be-hypertext-driven)
 - [The Fundamentals of REST API Design](https://stormpath.com/blog/fundamentals-rest-api-design)
+- [The 5 API styles: Understanding REST, OpenAPI, HTTP, gRPC, GraphQL, and Kafka](https://blog.axway.com/apis/api-styles-rest-openapi-http-grpc-graphql-and-kafka)
 
 ### Highlights
 

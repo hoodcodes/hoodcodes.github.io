@@ -5,7 +5,7 @@
 ### Reference Links
 
 - [AWS Skill Builder (Free Training!)](https://explore.skillbuilder.aws/learn/signin)
--
+- [YT 18min: The Most Important AWS Core Services That You NEED To Know About](https://www.youtube.com/watch?v=B08iQQhXG1Y)
 
 ### 2022 Goal: AWS Developer Associate Certification
 

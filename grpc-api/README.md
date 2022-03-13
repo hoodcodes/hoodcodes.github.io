@@ -9,3 +9,9 @@
 - Characteristics:
 
 ### Summary Description
+
+### Reference Links
+
+- [gRPC Home](https://grpc.io/)
+- [REST vs gRPC](https://www.baeldung.com/rest-vs-grpc)
+-
