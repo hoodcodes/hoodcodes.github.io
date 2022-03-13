@@ -18,7 +18,15 @@ The implementation is usually for Github.
 
 ### Reference Links
 
-- [Metadata and Markdown template for .NET docs](https://docs.microsoft.com/en-us/contribute/dotnet/dotnet-style-guide) - helpful guidelines for putting together a publishable document written in markdown -[How to Write Beautiful and Meaningful README.md](https://medium.com/@silentlad/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991)
+- [Metadata and Markdown template for .NET docs](https://docs.microsoft.com/en-us/contribute/dotnet/dotnet-style-guide) - helpful guidelines for putting together a publishable document written in markdown
+- [How to Write Beautiful and Meaningful README.md](https://medium.com/@silentlad/how-to-write-beautiful-and-meaningful-readme-md-for-your-next-project-897045e3f991)
+  - Write a good description of your projects. Just for guidelines, you can format your description into the following topics:-
+    - Title (A Title Image too if possible…Edit them on canva.com if you are not a graphic designer.)
+    - Description(Describe by words and images alike)
+    - Demo(Images, Video links, Live Demo links)
+    - Technologies Used
+    - Special Gotchas of your projects (Problems you faced, unique elements of your project)
+    - Technical Description of your project like- Installation, Setup, How to contribute.
 
 ### My most common used marddown elements
 
