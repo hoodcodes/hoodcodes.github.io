@@ -146,3 +146,38 @@ to start up a container in the compose file:
 to stop a container or all containers in the compose file:
 `docker-compose stop <container name>` (stops just that container)
 `docker-compose stop` (stops all containers)
+
+### Installation:
+
+Getting Docker installed on laptop - steps I took: (this is for Windows - there are a few slight nuances if installing for linux/macOS)
+
+- Check that you have following windows features enabled: (click Start -> type “Windows Features” and select it, and check the following)
+  - Hyper-V
+  - Containers (optional in my opinion. You will likely not use it, but rather will use the Linux subsystem for Windows instead, for good measure I enabled it anyway)
+- Install Docker Desktop ( https://docs.docker.com/docker-for-windows/install/ )
+  - Default to using “Linux Containers”. (note: this can be changed later if you want)
+  - Submit request to ServiceDesk@globalmed.com and request the exclusion for the anti-virus (currently Carbon Black) to allow Docker usage.
+- As a proof of it working correctly, I created an app with a docker image and ran the following commands (mentioned below in MISC section):
+  - Build
+  - Run
+  - Push
+- Become a Docker master by checking out some good docs at the Docker Tutorial Labs: https://docs.docker.com/samples/#tutorial-labs
+
+### Terminology
+
+**Docker image**: a private filesystem, just for your computer. Provides all files and code your container will need.
+
+docker **build** command: creates a Docker image using the Dockerfile. This built image is in your machine’s local Docker image registry.
+ex:
+
+1. go to directory of the app: cd doodle\cheers2019
+2. build the app: docker build -t cshood/cheers2019 .
+
+docker **run** command: running a container launches your software with private resources, securely isolated from the rest of your machine.
+ex: docker run -it --rm cshood/cheers2019
+
+Sharing image on Docker Hub: **push** the image that describes it to Docker Hub
+ex:
+
+1. login to Docker Hub: docker login -u <username> (followed by prompt for pass)
+2. push image to Docker Hub: docker push cshood/cheers2019

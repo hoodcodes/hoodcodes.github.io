@@ -2,6 +2,8 @@
 
 # Interviewing Reference
 
+These are questions I am interested in asking myself, let alone anyone else.
+
 ### Questions of Interest to me
 
 - I would be interested in hearing you talk about the project you mentioned working on at Company X
@@ -43,3 +45,31 @@ Other Questions
    I need people who can learn, and learning means making mistakes, recognizing that, and doing a better job next time.
 3. “If I have a Web application that I find is still running (via top/ps/whatever) but users are getting ‘connection refused’ when trying to access it, how would I go about diagnosing the problem?”
    With the answer to that question, I get to hear about the interviewee's thought process, favorite diagnostic tools, and biases, as well as whether they really know how to solve problems. Getting the “right” answer isn’t important, but it tells me about how the person thinks and how well they've familiarized themselves with the tools they use.
+4. How would you approach getting up to speed on an existing project?
+5. Have you been keeping up with the latest updates to anything? if so, what have you learned? Teach me one or two things you have learned.
+6. What don’t you like about the language(s) you use and why ?
+
+### Data Structures Topics
+
+How do you find phone numbers in a 50,000 html pages? (look up grep and get regex familiarity to
+
+Describe the meaning of these: Big O notation, and knowing that algorithms usually fall into the following performance classes: constant-time, logarithmic, linear, polynomial, exponential, and factorial.
+
+Data Structures - describe each of these:
+The (concrete) data structures they absolutely must understand are these:
+
+- arrays - I'm talking about C-language and Java-language arrays: fixed-sized, indexed, contiguous structures whose elements are all of the same type, and whose elements can be accessed in constant time given their indices.
+- vectors - also known as "growable arrays" or ArrayLists. Need to know that they're objects that are backed by a fixed-size array, and that they resize themselves as necessary.
+- linked lists - lists made of nodes that contain a data item and a pointer/reference to the next (and possibly previous) node.
+- hashtables - amortized constant-time access data structures that map keys to values, and are backed by a real array in memory, with some form of collision handling for values that hash to the same location.
+- trees - data structures that consist of nodes with optional data elements and one or more child pointers/references, and possibly parent pointers, representing a heirarchical or ordered set of data elements.
+- graphs - data structures that represent arbitrary relationships between members of any data set, represented as networks of nodes and edges.
+
+Candidates should be able to describe, for any of the data structures above:
+
+- what you use them for (real-life examples)
+- why you prefer them for those examples
+- the operations they typically provide (e.g. insert, delete, find)
+- the big-O performance of those operations (e.g. logarithmic, exponential)
+- how you traverse them to visit all their elements, and what order they're visited in
+- at least one typical implementation for the data structure

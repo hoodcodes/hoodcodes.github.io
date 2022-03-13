@@ -16,6 +16,10 @@ This is my personal reference sheet with notes and examples.
 
 The implementation is usually for Github.
 
+### Reference Links
+
+- [Metadata and Markdown template for .NET docs](https://docs.microsoft.com/en-us/contribute/dotnet/dotnet-style-guide) - helpful guidelines for putting together a publishable document written in markdown
+
 ### My most common used marddown elements
 
 ## Element: Headings

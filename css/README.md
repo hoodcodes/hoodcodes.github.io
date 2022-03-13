@@ -3,6 +3,7 @@
 # CSS Reference
 
 - [Bootstrap Studio - desktop app](https://bootstrapstudio.io/)
+- [YT 19min - 5 CSS mistakes that I see way too often](https://www.youtube.com/watch?v=iHEkRIF7zxI&list=WL)
 
 ### Highlights
 

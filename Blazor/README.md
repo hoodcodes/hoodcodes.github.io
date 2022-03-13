@@ -11,7 +11,7 @@ At its core - it is a
 - component model
 - rendering engine
 
-### Flavors
+## Flavors
 
 ### Blazor Server - all rendering is done on the server - sending only html and binary update data
 
@@ -27,18 +27,18 @@ At its core - it is a
 ### Blazor WebAssembly - c# is run in the browser on the client, rendering html from c#
 
 - can be standalone and asp.net hosted
-- standalone: simplest blazor app model
-- asp.net core server is not needed
-- deploy a static folder of files
-- asp.net core server
-- the blazor app is served to the client thru middleware
-- client and server can share code
-- client and server have to be deployed together
+  - standalone: simplest blazor app model
+    - asp.net core server is not needed
+    - deploy a static folder of files
+  - asp.net core server
+    - the blazor app is served to the client thru middleware
+    - client and server can share code
+    - client and server have to be deployed together
 - progressive web app
-- can be opened like a native app
-- loads quickly
-- provides offline access
-- they can auto-update themselves
+  - can be opened like a native app
+  - loads quickly
+  - provides offline access
+  - they can auto-update themselves
 - C# on the client
 - Browser loads the runtime
 - Download size is still big but getting better

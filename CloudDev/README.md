@@ -5,6 +5,8 @@
 - [AWS Reference](../AWS/)
 - [Azure Reference](../Azure/)
 - [Google Cloud Reference](../GoogleCloud/)
+- [Microsoft: Cloud Design Patterns](https://docs.microsoft.com/en-us/azure/architecture/patterns/)
+- [Cloud Native Architecture](https://github.com/dotnet/docs/tree/main/docs/architecture/cloud-native)
 
 ### Cloud Training
 

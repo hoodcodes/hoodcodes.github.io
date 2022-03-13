@@ -14,6 +14,8 @@
 
 ### Reference Links:
 
+- [SQL Antipatterns: Avoiding the Pitfalls of Database Programming](https://pragprog.com/book/bksqla/sql-antipatterns)
+
 ### Topics:
 
 ### CTE - Common Table Expressions

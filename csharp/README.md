@@ -105,6 +105,7 @@ run `Ctrl+C` in the Terminal to shut down the webapi.
 
 - [ZetCode - Jan Bodnar - fantastic reference site (with tutorials as well) for C#, Go, Java, JavaScript, Python, heck all the things...](https://zetcode.com/)
 - [Awesome C#](https://github.com/danperor/awesome-csharp)
+- [eShop on Containers Github Repo](https://github.com/dotnet-architecture/eShopOnContainers) /Excellent. A Cross-platform .NET sample microservices and container based application that runs on Linux Windows and macOS. Powered by .NET 6, Docker Containers and Azure Kubernetes Services. Supports Visual Studio, VS for Mac and CLI based environments with Docker CLI, dotnet CLI, VS Code or any other code editor.
 
 ### Random Nuggets
 
