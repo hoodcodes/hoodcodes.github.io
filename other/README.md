@@ -6,6 +6,14 @@
 
 - [notes on Douglas Crockford Talk: Managing Programmers](./managingprogrammers.md)
 - [YouTube 55min Douglas Crockford: Programming Style & Your Brian](https://www.youtube.com/watch?v=_EANG8ZZbRs)
+- [Accessibility](./accessibility.md)
+- [Agile](./agile.md)
+- [Caching](./caching.md)
+- [Currying](./currying.md)
+- [GREP](./grep.md)
+- [Math](./math.md)
+- [Quotes](./quotes.md)
+- [Software Terms](./softwareterms.md)
 
 ### VIM
 
