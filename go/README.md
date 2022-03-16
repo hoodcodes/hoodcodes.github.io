@@ -39,4 +39,39 @@
 - [zerolog](https://github.com/rs/zerolog): provides a fast and simple logger dedicated to JSON output.
 - [errgroup](https://pkg.go.dev/golang.org/x/sync/errgroup): provides synchronization, error propagation, and Context cancelation for groups of goroutines working on subtasks of a common task.
 
+### Testing in Go
+
+Create a go file using `_test.go` as the suffix for the filename for the file you are testing against.
+
+import the `testing` package:
+
+```go
+import (
+	"testing"
+)
+```
+
+example test method(testing a method named Calculate):
+
+```go
+func TestCalculate(t *testing.T) {
+	if Calculate(2) != 4 {
+		t.Error("Expected 2 + 2 to equal 4")
+	}
+}
+```
+
+to run tests: `go test`
+
+to run tests with verbosity: `go test -v` example results:
+
+```
+=== RUN   TestCalculate
+--- PASS: TestCalculate (0.00s)
+=== RUN   TestTableCalculate
+--- PASS: TestTableCalculate (0.00s)
+PASS
+ok      example/go-p1   0.120s
+```
+
 ### Go Routines
