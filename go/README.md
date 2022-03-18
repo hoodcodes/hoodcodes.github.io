@@ -6,9 +6,25 @@
 
 - Created: 2007
 - Created By: Google
+  - Robert Griesemar
+  - Rob Pike
+  - Ken Thompson
 - Characteristics: Has concurrecy and parallelism built in. Made by the Google Guys. Very fast, simple and efficient. one motivation for creating it was frustation with the complexity of the C++ language. has garbage collection. productive and readable.
 
 ### Summary Description
+
+Created at Google to help solve issues they were encountering when working to provide solutions that scale. At the time, 3 main languages were in use: Python, Java and C/C++. There were limitations which each of them:
+
+- python: easy to use, but slow
+- Java: very quick, but an increasingly complex type system
+- C/C++: quick as well, but also has a complex type system and slow compile times. (when they were written, memory was a limitation so optimizations were made in the compilers to use as little memory as possible, but the result was slow compile times. Today of course, memory is cheap however).
+
+Also worth noting, when all 3 of these applications were created, multi-threaded apps were rare, so at best - concurrency patterns were patched in to the languages. Working in highly parallel, highly concurrent applications like Google had was more challenging at the time they decided to build a new language.
+
+Go characteristics:
+
+- Strong and statically typed
+-
 
 ### Reference Links
 
