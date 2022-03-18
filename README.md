@@ -52,4 +52,4 @@ Couple extra goodies:
 - Some [programming humor](./humor/)
 - [Programmer's Quotes](https://www.codingninja.co.uk/best-programmers-quotes/)
 
-While this is my home for programming reference information, my coding efforts and practice are concentrated at my GitHub for [HoodCodes.github.io](https://thecodegarage.github.io).
+While this is my home for programming reference information, my coding efforts and practice are concentrated at my GitHub for [HoodCodes.github.io](https://hoodcodes.github.io).
