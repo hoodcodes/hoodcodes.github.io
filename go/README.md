@@ -24,9 +24,28 @@ Also worth noting, when all 3 of these applications were created, multi-threaded
 Go characteristics:
 
 - Strong and statically typed
--
+- Excellent Community
+- Simplicity is core to the language. Decisions are made to leave some features out if they would add significant complexity
+- Fast compile times
+- Garbage Collection
+- Built-in concurrency
+- Compiles to standalone binaries. All Go dependencies are contained in the binary.
+
+Note on the language name: While the name is Go, golang is used often as golang helps to create more useful search results on the web.
 
 ### Reference Links
+
+- [FreeCodeCamp.org - Learn Go Programming 6hr 40 min](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+- [Official Website: Go.dev](https://go.dev/)
+  - [Getting Started](https://go.dev/learn/)
+    - [Tour of Go](https://go.dev/tour/welcome/1)
+    - [Documentation](https://go.dev/doc/)
+    - [Playground](https://go.dev/play/)
+    - [Packages](https://pkg.go.dev/)
+    - [Blog](https://go.dev/blog/)
+- [Golang Bridge Community](https://forum.golangbridge.org/)
+
+**Other Links**
 
 - [Go by Example](https://gobyexample.com/)
 - [My 5 favourite features of Go and how to use them](https://making.pusher.com/my-5-favourite-features-of-go-and-how-to-use-them/)
@@ -42,6 +61,13 @@ Go characteristics:
 - [Go Code Review Comments](https://gist.github.com/adamveld12/c0d9f0d5f0e1fba1e551)
 - [SOLID Go Design](https://dave.cheney.net/2016/08/20/solid-go-design)
 - [reddit r/golang](https://www.reddit.com/r/golang/)
+
+**Go Version 1.18 New Features (March 15, 2022 Release)**
+
+- [Blog Article Announcing 1.18 Release](https://go.dev/blog/go1.18)
+- Generics! [Generics in Go Tutorial](https://go.dev/doc/tutorial/generics)
+- Fuzzing [Fuzzing in Go Tutorial](https://go.dev/doc/tutorial/fuzz)
+- Workspaces - allowing you to work across multiple modules [Getting Started with Workspaces in Go](https://go.dev/doc/tutorial/workspaces)
 
 ### Your First Go Program
 
