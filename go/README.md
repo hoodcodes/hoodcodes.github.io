@@ -30,6 +30,7 @@ Go characteristics:
 - Garbage Collection
 - Built-in concurrency
 - Compiles to standalone binaries. All Go dependencies are contained in the binary.
+- [Promise of backwards compatibility](https://tip.golang.org/doc/go1compat)
 
 Note on the language name: While the name is Go, golang is used often as golang helps to create more useful search results on the web.
 
@@ -47,6 +48,7 @@ Note on the language name: While the name is Go, golang is used often as golang 
 
 **Other Links**
 
+- [Updating your Go version](https://gist.github.com/nikhita/432436d570b89cab172dcf2894465753)
 - [Go by Example](https://gobyexample.com/)
 - [My 5 favourite features of Go and how to use them](https://making.pusher.com/my-5-favourite-features-of-go-and-how-to-use-them/)
 - [Comparing Exilir and Go](https://www.cloudbees.com/blog/comparing-elixir-go)
