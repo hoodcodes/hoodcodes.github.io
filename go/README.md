@@ -65,6 +65,7 @@ Note on the language name: While the name is Go, golang is used often as golang 
 **Go Version 1.18 New Features (March 15, 2022 Release)**
 
 - [Blog Article Announcing 1.18 Release](https://go.dev/blog/go1.18)
+- [1.18 Release Notes](https://tip.golang.org/doc/go1.18)
 - Generics! [Generics in Go Tutorial](https://go.dev/doc/tutorial/generics)
 - Fuzzing [Fuzzing in Go Tutorial](https://go.dev/doc/tutorial/fuzz)
 - Workspaces - allowing you to work across multiple modules [Getting Started with Workspaces in Go](https://go.dev/doc/tutorial/workspaces)
