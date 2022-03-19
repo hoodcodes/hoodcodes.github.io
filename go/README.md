@@ -37,6 +37,7 @@ Note on the language name: While the name is Go, golang is used often as golang 
 ### Reference Links
 
 - [FreeCodeCamp.org - Learn Go Programming 6hr 40 min](https://www.youtube.com/watch?v=YS4e4q9oBaU)
+  - [My Notes from taking this course](./fcc-go-coursenotes.md)
 - [Official Website: Go.dev](https://go.dev/)
   - [Getting Started](https://go.dev/learn/)
     - [Tour of Go](https://go.dev/tour/welcome/1)
