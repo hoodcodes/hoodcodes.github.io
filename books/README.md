@@ -10,9 +10,9 @@ As I go through each book, or refer to specific sections, I would like to captur
 
 ### My Library
 
-- [Ace The Programming Interview - 160 Questions and Answers for Success]()
-- [Introduction to Algorithms]()
-- [Design Patterns]()
+- [Ace The Programming Interview - 160 Questions and Answers for Success](https://www.amazon.com/Ace-Programming-Interview-Questions-Answers/dp/111851856X/ref=sr_1_1?crid=3QRJJ9DCIJ26O&keywords=Ace+The+Programming+Interview+-+160+Questions+and+Answers+for+Success&qid=1647956833&sprefix=ace+the+programming+interview+-+160+questions+and+answers+for+success%2Caps%2C116&sr=8-1)
+- [Introduction to Algorithms](https://www.amazon.com/Introduction-Algorithms-fourth-Thomas-Cormen/dp/026204630X/ref=sr_1_1?crid=1PKPRHU1P9BTG&keywords=introduction+to+algorithms&qid=1647956896&s=books&sprefix=Introduction+to+Algorithms%2Cstripbooks%2C120&sr=1-1) - The latest release is the Fourth Edition. I have the third edition.
+- [Design Patterns](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_3?crid=33WWD85YK2ZD2&keywords=Design+Patterns&qid=1647956990&s=books&sprefix=design+patterns%2Cstripbooks%2C120&sr=1-3)
 - [Head First Design Patterns]()
 - [Specification By Example]()
 - [Refactoring]()
