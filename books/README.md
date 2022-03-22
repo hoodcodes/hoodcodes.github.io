@@ -2,8 +2,6 @@
 
 # Books on Programming
 
-[psst... Here are some other books (non-technical) I have made notes for](./non-technical/)
-
 ### Overview
 
 At one time I have maybe 50-75 books. But I gave them all away under the illusion that I could be happy just with digital books. I was wrong. So I am building my library of books back up. I now find having actual books of more value than I previously thought.
@@ -30,3 +28,5 @@ As I go through each book, or refer to specific sections, I would like to captur
 - [The Imposter' Handbook - Rob Conery]()
 
 ### Books of Interest
+
+[psst... Here are some other books (non-technical) I have made or plan to make notes for](./non-technical/)
