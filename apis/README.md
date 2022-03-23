@@ -9,6 +9,8 @@
 - [Zapier: An Introduction to APIs](https://zapier.com/learn/apis/)
 -
 
+[My 'list of lists' for Public Apis'](./apidirectory.md) - other folks have already created some great lists of public APIs.
+
 ### Styles
 
 - [REST](../rest-api/)
