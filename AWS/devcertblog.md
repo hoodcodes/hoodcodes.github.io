@@ -10,7 +10,9 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
-**March ??, 2022**
+**March 24, 2022**
+
+I decided to share this goal with my FTE company manager as a personal goal for myself which could be beneficial for my overall performance rating at the end of the year. Doing so means I needed to put together some details for sharing this in my work goal planner. This did not take much time. An interesting item is that I have been told that my department is focused on trying to find a good way to get developers up to speed on AWS since this is the primary cloud platform being utilized. So, I have a task to share my knowledge on what I am doing with someone. Who knows, maybe it might be helpful for more than just myself to become a SME on AWS for my department.
 
 **March 17, 2022**
 
