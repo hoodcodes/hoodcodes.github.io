@@ -10,6 +10,20 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**March 26, 2022**
+
+More information for sharing about this certification, I found this in the ramp-up guide:
+
+> Learn how to build modern applications on AWS using microservices, containers, and serverless technologies using the programming language of
+> your choice. You'll also be exposed to the foundational principles of DevOps and continuous integration/continuous delivery (CI/CD) on AWS. This
+> guide can also help prepare you for the AWS Certified Developer – Associate certification exam. If you're interested specifically in digital courses and labs to help you develop these skills, explore the Developer Learning Plan at explore.skillbuilder.aws.
+
+[AWS Ramp-Up Guide: Developer](https://d1.awsstatic.com/training-and-certification/ramp-up_guides/Ramp-Up_Guide_Developer.pdf)
+
+There are several suggested Classroom Trainings included in this guide, however I am strictly looking to complete the digital training and assess how ready I would be to take the exam with the free practice exam they will provide.
+
+The cost of the exam itself is $150. I would like to ask my company if I do pass the exam, would they be willing to reimburse me for this expense.
+
 **March 25, 2022**
 
 I am looking at the Developer Learning Plan on the AWS Skillbuilder site.
