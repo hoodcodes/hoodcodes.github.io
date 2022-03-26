@@ -10,6 +10,31 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**March 25, 2022**
+
+I am looking at the Developer Learning Plan on the AWS Skillbuilder site.
+
+The AWS Developer Learning Plan is broken up into 18 courses, as follows (inc. duration of course):
+
+- Intro to AWS Elastic Beanstalk (10min)
+- Getting Started with .Net on AWS (1hr 30min)
+- Accelerating Messaging Modernization with Amazon MQ (1hr 30min)
+- Introduction to Containers (15min)
+- Introduction to AWS Fargate (10min)
+- Deep Dive on AWS Fargate: Building Serverless Containers at Scale (40min)
+- Deep Dive on Container Security (30min)
+- Amazon Elastic Container Service (ECS) Primer (30min)
+- Amazon Elastic Kubernetes Service (EKS) Primer (1hr)
+- Introduction to Serverless Development (4hr 25min)
+- Getting into the Serverless Mindset (30min)
+- AWS Lambda Foundations (1hr)
+- Amazon API Gateway for Serverless Applications (1hr 15min)
+- Amazon DynamoDB for Serverless Architecture (2hr)
+- Architecting Serverless Solutions (3hr)
+- Getting Started with DevOps on AWS (8hr)
+- Build and Deploy APIs with a Serverless CI/CD (1hr 45min)
+- Exam Readiness: AWS Certified Developer - Associate (Digital) (2hr)
+
 **March 24, 2022**
 
 I decided to share this goal with my FTE company manager as a personal goal for myself which could be beneficial for my overall performance rating at the end of the year. Doing so means I needed to put together some details for sharing this in my work goal planner. This did not take much time. An interesting item is that I have been told that my department is focused on trying to find a good way to get developers up to speed on AWS since this is the primary cloud platform being utilized. So, I have a task to share my knowledge on what I am doing with someone. Who knows, maybe it might be helpful for more than just myself to become a SME on AWS for my department.
