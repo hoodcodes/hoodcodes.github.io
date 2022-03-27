@@ -10,6 +10,16 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**March 28, 2022**
+
+**March 27, 2022**
+
+I am throwing out a goal to at least look at 30 minutes or more of training every day going forward. Rain or shine - if it is early morning or 10pm, to not break the chain. Sometimes the hardest part is starting each day, but consistency wins in most things I put serious effort towards so I need to apply that here. Some days will be better than others. but I aim to write at least something here about what I learned or listened to.
+
+Undoubtedly - there will be some training, maybe most of it, where I need to listen twice. So 30 hours of training should be doubled or tripled for my estimate of what I need to get myself close to a place for achieving readiness for this exam, and having a good grasp of the content. Let's make it simple and put my goal to be 100 hours of effort - and see where this gets me. 100 hours to go through the digital training, write notes on it, and practice.
+
+My journal here I am hoping will be the rough notes for a series of blog articles I can then deliver out on Medium, and/or my blog or LinkedIn.
+
 **March 26, 2022**
 
 More information for sharing about this certification, I found this in the ramp-up guide:
