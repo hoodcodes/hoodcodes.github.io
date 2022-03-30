@@ -10,7 +10,23 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
-**March 28, 2022**
+**March 29, 2022**
+
+First Course: Introduction to AWS Elastic Beanstalk
+
+AWS Elastic Beanstalk provides you with a platform enabling you to quickly deploy your applications in the cloud. This course will briefly discuss the different components of the AWS Elastic Beanstalk solution, and perform a demonstration of the service.
+
+One way to get your app into the cloud quickly is to use Elastic Beanstalk
+
+- It is a PaaS (Platform as a Service)
+- Allows quick deployment of your applications
+- Reduces the management complexity (but you can maintain full control if you desire)
+- Keeps control in your hands
+- Supports a large range of platforms (inc .Net, Go, Python, Node but not Rust)
+- You can simply focus on supplying your code, EB supplies everything else
+- Deployment and Updates - very easy
+
+In the second half of this short course, there is a demonstration of creating an application using Elastic Beanstalk.
 
 **March 27, 2022**
 

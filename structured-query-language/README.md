@@ -18,6 +18,9 @@
 
 ### Topics:
 
+- Using SQL Query Execution Plan to analyze performance, and enhanced performance following changes.
+-
+
 ### CTE - Common Table Expressions
 
 ### Select values in first table that are not in second table
