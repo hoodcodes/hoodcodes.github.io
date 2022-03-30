@@ -10,6 +10,62 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**March 30, 2022**
+
+Getting Started with .NET on AWS (1hr 30min)
+
+In this course, you will learn the basics of deploying, managing, and securing .NET applications with Amazon Web Services (AWS). You will learn about AWS services and tools specifically designed for .NET applications. You will also have an opportunity to practice deploying a .NET application to the AWS Cloud.
+
+Course Introduction and .Net Overview video - 2min
+
+- AWS has been investing in .Net development for over a decade
+- .Net Framework and .Net Core supported
+
+AWS Services for .Net Applications - 7min
+
+- Compute Services
+  - Instances
+    - EC2
+    - Elastic Beanstalk
+  - Containers
+    - ECS
+    - EKS
+  - Serverless
+    - Lambda
+    - Fargate
+  - Storage and database services
+    - Storage
+      - S3
+    - Relational
+      - RDS
+        - 6 DB engines
+      - Aurora
+    - Non-relational
+      - DynamoDB
+- Identity Services
+  - IAM - Identity and Access Mgmt
+  - Directory Service
+  - Amazon Cognito
+- Monitoring and auditing services
+  - CloudWatch
+  - CloudTrail
+
+.Net Developer Tools on AWS - 3min
+
+- AWS SDK on .Net (available on Nuget)
+- AWS Toolkit for Visual Studio-
+- AWS Toolkit for Visual Studio Code-
+- AWS Toolkit for JetBrains Rid- er-
+- AWS Tools for PowerShell-
+- AWS CLI-
+- .NET Core CLI-
+- AWS Toolkit for Azure DevOps-
+- AWS CDK for .NET (Cloud Deve- lopme- nt Kit)
+
+Practice Activity - 30-45min - (Windows Only)
+
+- Deploy a sample .NET web appl- ication to the AWS Cloud using the AWS Toolkit for Visual Studio
+
 **March 29, 2022**
 
 First Course: Introduction to AWS Elastic Beanstalk
