@@ -14,9 +14,38 @@ These are rough notes which I may use to help create a polished Article series o
 
 Today I installed the latest Visual Studio 2022 Community Edition on my old desktop as the AWS exercise activity requires VS on Windows only. This will take some time this evening so I will look to pick up on completing the activity tomorrow.
 
-In the meantime, i can look at another AWS course.
+In the meantime, i can look at another AWS course.- Intro to Containers (15min)
 
-**March 30, 2022**
+A container is a standardized unit of software.
+
+They differ from other forms of virtualization in the following ways:
+
+- Bare-metal servers are most inefficient. No resources shared and you pay for everything whether you are at 0 or 100% utilization.
+- Virtual machines are better, using a virtualization platform. This allows for sharing of hardware. Still you have multiple OS's and this is heavy. A lot of redundancy exists.
+- Containers - most efficient. Containerization platform allows for sharing of hardware and OS. you can have a container with the app and needed libraries. multiple containers can share libraries. You can spin them up and down easily.
+
+Image: Read-only, immutable, and portable template with instructions for creating a container.
+
+Container: running instance of that image. Consider it a discrete, compute unit, not a storage unit.
+
+Volume: Where you store persistent data.
+
+To build your own image, you create a docker file.
+
+Each line of the Dockerfile adds a layer to the image.
+
+You can port the image to any environment that supports Docker, and you can store it in any registry for eacy reuse.
+
+Microservices Characteristics:
+
+- Decentralized, evolutionary design
+- smart endpoints, dumb pipes
+- independent products, not projects
+- designed for failure
+- Disposability
+- Development and production parity - can treat environments the same
+
+**March 30, 2022**--
 
 Getting Started with .NET on AWS (1hr 30min)
 
