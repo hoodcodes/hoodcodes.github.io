@@ -10,6 +10,12 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**March 31, 2022**
+
+Today I installed the latest Visual Studio 2022 Community Edition on my old desktop as the AWS exercise activity requires VS on Windows only. This will take some time this evening so I will look to pick up on completing the activity tomorrow.
+
+In the meantime, i can look at another AWS course.
+
 **March 30, 2022**
 
 Getting Started with .NET on AWS (1hr 30min)
