@@ -10,6 +10,19 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 5, 2022**
+
+I signed up for a 3 hour AWS seminar on preparing for the Developer Cert exam, and since it was during work hours I recorded it to watch on my own time. Tonight I finished watching it straight through without taking notes. I will watch it again and capture the key takeaways for each section covered. Good session and presenter. I have a better idea on the scope of the exam content and I'm finding most of it interesting.
+
+AWS followed up with an email sharing additional content for review, and here is that content below.
+
+1. Exam Guide: https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf2.
+1. Skill Builder (create a free account and search for practice exam questions): https://aws.amazon.com/training/digital3.
+1. Certification Challenge for Developer - Associate: https://training.resources.awscloud.com/get-certified-developer-associate?trk=ca3a0879-58f2-49a4-8ce6-507eb0610e64&sc_channel=em4.
+1. Additional free training webinars: https://aws.amazon.com/training/events
+
+- Please send your questions, comments and feedback to: amer-training-webinars@amazon.com
+
 **March 31, 2022**
 
 Today I installed the latest Visual Studio 2022 Community Edition on my old desktop as the AWS exercise activity requires VS on Windows only. This will take some time this evening so I will look to pick up on completing the activity tomorrow.
