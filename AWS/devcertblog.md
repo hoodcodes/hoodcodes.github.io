@@ -10,6 +10,14 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 8, 2022**
+
+This week has been difficult with work taking a lot of my focus and energy, however I want to post my thoughts here on Friday night. Some days are not great for what we can invest in our goals and dreams. Some weeks are not very good. But the important thing to remember, the critical piece to keep in the forefront of your psyche, is that tomorrow is a new day. Tomorrow is another opportunity to wake up, jump out of bed, and attack the day so you can accomplish as much as possible in one day.
+
+It is a war in our minds and hearts. To keep pushing. To not fold your cards. Persistance pays off. You can move slower some days, while faster other days. Consistency will win. So let yesterday be dead to you. Look forward.
+
+What can I accomplish tomorrow morning for my AWS certification? Well - get up at 330am and see! Then report back I shall.
+
 **April 5, 2022**
 
 I signed up for a 3 hour AWS seminar on preparing for the Developer Cert exam, and since it was during work hours I recorded it to watch on my own time. Tonight I finished watching it straight through without taking notes. I will watch it again and capture the key takeaways for each section covered. Good session and presenter. I have a better idea on the scope of the exam content and I'm finding most of it interesting.
