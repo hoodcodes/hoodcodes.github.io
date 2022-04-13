@@ -10,6 +10,16 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 12, 2022**
+
+Five days have passed and I have not put any effort in. I have found challenges putting in a block of time and reserving it specifically for this activity. I think I need to make an appointment with myself and not break this commitment.
+
+Also - I am concerned that I still have too many goals competing in my mind, which result in my feeling overwhelmed and then not accomplishing anything.
+
+Further proof that 'one thing at a time' makes more sense for me. Better to go deep - thoroughly study one subject and make it stick. Have my reference notes for refreshing myself. Complete this, THEN move on to the next. Instead of having 4-6 goals to try and accomplish simultaneously.
+
+So tomorrow - I will work to start again. One thing at a time.
+
 **April 8, 2022**
 
 This week has been difficult with work taking a lot of my focus and energy, however I want to post my thoughts here on Friday night. Some days are not great for what we can invest in our goals and dreams. Some weeks are not very good. But the important thing to remember, the critical piece to keep in the forefront of your psyche, is that tomorrow is a new day. Tomorrow is another opportunity to wake up, jump out of bed, and attack the day so you can accomplish as much as possible in one day.
