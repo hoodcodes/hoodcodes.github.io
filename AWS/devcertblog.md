@@ -10,6 +10,12 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 13, 2022**
+
+No effort made today, however I did remove some distractions such as all 'watch later' YT vids unless they are AWS related.
+
+I am set up to give this another start tomorrow morning. Things will definitely open up once I am working in my native time zone again in two weeks.
+
 **April 12, 2022**
 
 Five days have passed and I have not put any effort in. I have found challenges putting in a block of time and reserving it specifically for this activity. I think I need to make an appointment with myself and not break this commitment.
