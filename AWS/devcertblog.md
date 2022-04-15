@@ -97,12 +97,13 @@ Items performed:
   - Installing jq...
   - Updating java to 1.8...
   - Updating maven to 3.6... <= this is where it seemed to get hung. I shut down the terminal and ran commands again. Same experience. waiting...
+    - googling about maven update/installs - there is talk that this can take a long time. I will let it sit and work after my 3rd attempt.
 
 # Creating a Message Broker
 
-- This setup time is 25 minutes
+- This setup time is stated to take 25 minutes, however it took a lot less - maybe 10.
 
-At this point of the lab, with the Cloud IDE hung, and having to wait almost 30 minutes for the message broker to be created, I am tempted to watch the video and walk thru the rest of the lab to get an idea of this at least.
+At this point of the lab, I am going to pause (at step 5.7 and also waiting for the IDE to get set up). I will return later.
 
 **April 14, 2022**
 
