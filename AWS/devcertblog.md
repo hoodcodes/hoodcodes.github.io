@@ -86,11 +86,11 @@ The labs provided links to setting up the prerequisites. Having multiple screens
 
 Items performed:
 
-# Create resources with AWS CloudFormation - provisioning resources
+1. Create resources with AWS CloudFormation - provisioning resources
 
 - This took about 10 minutes to complete
 
-# Set up AWS Cloud9 IDE Workspace
+2.  Set up AWS Cloud9 IDE Workspace
 
 - Setting up 4 terminals to run commands
 - This took a while - it was installing and updating:
@@ -98,12 +98,58 @@ Items performed:
   - Updating java to 1.8...
   - Updating maven to 3.6... <= this is where it seemed to get hung. I shut down the terminal and ran commands again. Same experience. waiting...
     - googling about maven update/installs - there is talk that this can take a long time. I will let it sit and work after my 3rd attempt.
+    - UPDATE: after about 45 minutes - the process completed
 
-# Creating a Message Broker
+3. Creating a Message Broker
 
 - This setup time is stated to take 25 minutes, however it took a lot less - maybe 10.
 
 At this point of the lab, I am going to pause (at step 5.7 and also waiting for the IDE to get set up). I will return later.
+
+---
+
+Ok - back and now everything is ready.
+
+#### Lab for Queues
+
+Looking at the lab for point-to-point messaging with queues
+
+Sender (aka Producer) can send messages to the queue before a receiver (aka Consumer) is configured.
+
+- not a single message will be lost.
+- once the receiver is set up it will begin receiving ALL of its intended messages.
+
+If you have one sender, and multiple receivers, ONLY one receiver will receive any given message. This demonstrates the scalability of adding multiple receivers when volumes of messages warrant adding them for performance reasons.
+
+if you have 2 senders and 2 receivers, one sender will send all messages to one receiver, and if one receiver goes away then the other receiver receives both senders messages. If then the 2nd sender starts sending messages again then the receivers once again become dedicated to receiving all messages from one sender.
+
+#### Lab for Topics
+
+Sending a message to a Topic. All receivers who subscribe to a topic will receive the message. In this way it is a one-to-many relationship
+
+When topics have no subcribers: no messages are saved. they are simply lost.
+
+When topics have only one subscriber: messages are received only for those coming in to the topic once the subscriber is subscribed
+
+When topics have multiple subscribers: both subscribers receive the messages coming in once they are subscribed. This is also known as the `fan out pattern`
+
+When topics have multiple publishers: all subscribers get all publisher messages once they are subscribed to the topic.
+
+AmazonMQ allows you to deploy brokers with a single instance or high available mode. Even if you have a single instance mode - Amazon can provide you with a multi-AZ so you can have your messages replicated to multiple data centers so none are lost.
+
+#### Lab demoing fault tolerance - no lost messages
+
+We started our message sender again, and then our receiver. Messages being sent and received. Then we stopped our receiver and saw how messages are enqueued while there is no receiver. Then we rebooted our broker, and witnessed the small blip, with an exception shown while the standby broker was activated.
+
+We saw how no messages are lost with our oldest enqueued message now available on the backup message broker once it is online.
+
+Finished this course.
+
+Introduction to Fargate Course
+
+Also - I listened to the "Introduction to Fargate" course, roughly a 22 minute talk about how with Fargate you can have your containers managed far easier. More to come I hope with labs in another course here. Sounds like an efficient option when you would like to use containers without having the typical chores of maintenance with infrastructure issues.
+
+Got to 28% completion for the challenge.
 
 **April 14, 2022**
 
