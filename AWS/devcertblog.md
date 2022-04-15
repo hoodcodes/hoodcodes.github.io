@@ -10,6 +10,100 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 15, 2022**
+
+This morning I woke early and tackled the Amazon MQ course (90min).
+
+The prerequisites for labs in this course did not require Windows.
+
+Messaging systems are useful wherever you need a loosely coupled system, that needs to scale, be highly reliable, and fault tolerant.
+
+MOM = Message-oriented middleware or message broker is used to connect system components.
+
+- Commercial: IBM, TIBCO
+- Open Source: RabbitMQ, ActiveMQ
+
+Traditionally on premise, there is high TCO with infrastructure, licenses expense, and support
+
+Migrating to the cloud can reduce TCO, as well as enable backup and DR capabilities, and further extend application capabilities.
+
+For many orgs, risks of moving to the cloud are barriers to cloud adoption, which include:
+
+- security concerns
+- resources which wrote the original software may have left the company and thus there may be risks with system components having the ability to talk to each other without introducing instability
+- vendor lockin concern
+- software refactor effort
+
+Born in the Cloud - Microservices
+
+- Amazon SQS (Queue)
+- Amazon SNS (Pub/Sub)
+
+Modernizing and refactoring the entire application could result in
+
+- high dev costs
+- long dev cycle
+- highest risk
+
+the contrast of a fully on-premise architecture to a full cloud architecture shows them at opposite extremes in terms of
+
+- overall costs
+- modern architectures used
+- scalability
+- management/support
+
+Rehost: Lift and Shift strategy to hosting some infrastructure to the cloud. This provides some TCO benefit
+
+Amazon MQ: managed message broker service for Apached ActiveMQ
+
+Re-platform: Lift and Shift and replace with managed broker (broker now in the cloud)
+
+- no code rewrite
+- AWS manages messaging system
+- high available broker
+- Messages never lost
+- better overall availability
+- no expensive licenses
+
+Re-platform (hybrid): connect legacy with modern
+
+- incrementally migrate applications (some legacy mainframe systems for example cannot be migrated)
+- AWS manages messaging system
+- high available broker
+- messages never lost
+- better overall availability
+- create new cloud apps
+- integrate with on-premises systems
+
+Next - Hands-on Labs ( https://amazon-mq-intro.workshop.aws )
+
+- create a message broker
+- explore point-to-point messaging using queues
+- explore publish-subscribe messaging using topics
+- Testing a message broker failover with high availability
+
+The labs provided links to setting up the prerequisites. Having multiple screens available made this easier. Worth noting - this involved a lot of waiting...
+
+Items performed:
+
+# Create resources with AWS CloudFormation - provisioning resources
+
+- This took about 10 minutes to complete
+
+# Set up AWS Cloud9 IDE Workspace
+
+- Setting up 4 terminals to run commands
+- This took a while - it was installing and updating:
+  - Installing jq...
+  - Updating java to 1.8...
+  - Updating maven to 3.6... <= this is where it seemed to get hung. I shut down the terminal and ran commands again. Same experience. waiting...
+
+# Creating a Message Broker
+
+- This setup time is 25 minutes
+
+At this point of the lab, with the Cloud IDE hung, and having to wait almost 30 minutes for the message broker to be created, I am tempted to watch the video and walk thru the rest of the lab to get an idea of this at least.
+
 **April 14, 2022**
 
 Today I completed the "Getting Started with .NET on AWS course.
