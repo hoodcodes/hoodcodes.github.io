@@ -10,6 +10,24 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 14, 2022**
+
+Today I completed the "Getting Started with .NET on AWS course.
+
+A practice activity was included, where I:
+
+- created an IAM user.
+- Installed the AWS Toolkit for Visual Studio (2022).
+- Created my Visual Studio Profile.
+- Created an Amazon RDS database instance using the AWS Explorer in Visual Studio.
+- Worked with a sample VS solution provided by AWS for the exercise, updating the project to use my cloud RDS database instance, and run the solution locally.
+- Created a cloud application by publishing my solution to Elastic Beanstalk using AWS Explorer, and hit the application thru the browser.
+- cleaned up my AWS resources after to minimize expense of resources.
+
+Nice exercise, hitting quite a few areas. Very nice flow with videos and guidance throughout the entire course. The quiz at the end was composed of 10 questions, with the need to get 8 right. unlimited retakes, but I got it the first shot. Easy questions if you are paying attention to what you are doing.
+
+A few resources they provided at the end which I will post later.
+
 **April 13, 2022**
 
 No effort made today, however I did remove some distractions such as all 'watch later' YT vids unless they are AWS related.
@@ -41,9 +59,9 @@ I signed up for a 3 hour AWS seminar on preparing for the Developer Cert exam, a
 AWS followed up with an email sharing additional content for review, and here is that content below.
 
 1. Exam Guide: https://d1.awsstatic.com/training-and-certification/docs-dev-associate/AWS-Certified-Developer-Associate_Exam-Guide.pdf2.
-1. Skill Builder (create a free account and search for practice exam questions): https://aws.amazon.com/training/digital3.
-1. Certification Challenge for Developer - Associate: https://training.resources.awscloud.com/get-certified-developer-associate?trk=ca3a0879-58f2-49a4-8ce6-507eb0610e64&sc_channel=em4.
-1. Additional free training webinars: https://aws.amazon.com/training/events
+2. Skill Builder (create a free account and search for practice exam questions): https://aws.amazon.com/training/digital3.
+3. Certification Challenge for Developer - Associate: https://training.resources.awscloud.com/get-certified-developer-associate?trk=ca3a0879-58f2-49a4-8ce6-507eb0610e64&sc_channel=em4.
+4. Additional free training webinars: https://aws.amazon.com/training/events
 
 - Please send your questions, comments and feedback to: amer-training-webinars@amazon.com
 
