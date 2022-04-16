@@ -10,6 +10,28 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 16, 2022**
+
+Interesting observation - the total length of this learning path appears to have grown from 30+ hours to 41.5 hours. The listed duration at the Developer Learning Plan page is not correct for the last course I completed (states it as 10 minutes when it was about 22 minutes).
+
+Course: Intro to Serverless Development
+
+This was a short, overview course summarizing the foundations of how to do serverless development with AWS.
+
+There will be 5 more courses around the subject of serverless, and plenty of labs I am sure. So I may tackle these this weekend.
+
+---
+
+AWS Architect certification: AWS does not appear to be as intense of a study program as Developer. I see 26 hours of study with the Developer learning plan, but only 10 hours of study with the Architect plan. This prompted me to look at the Microsoft Azure certification learning paths for Developer and Architect as well. Similar it seems. Different content.
+
+I don't know if I had a misunderstanding about the amount of content for each type of exam, but 2-3 years ago I thought that gaining a Developer certification was a stepping stone to the Architect cert. Could easily have been mistaken. Well, they are focused on different areas generally. Architects dive deep into cost analysis for example.
+
+The good news is - I could pursue an Architect certification and likely knock that out in a shorter amount of time after a Developer certification. This could be a bonus goal for 2022. But one thing at a time, and just getting a Developer certification would be fantastic for me this year. That is my primary goal for this area of technology.
+
+I am definitely interested in getting Azure and Google Developer certifications, so I can have a clear understanding of all 3 platform offerings for technologies in the developer space. We will cross that bridge of opportunity when it presents itself.
+
+---
+
 **April 15, 2022**
 
 This morning I woke early and tackled the Amazon MQ course (90min).
