@@ -10,6 +10,25 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 18, 2022**
+
+Course this evening is "Getting into the Serverless Mindset". Short. Notes:
+
+Serverless means:
+
+- No server management
+- flexible scaling
+- automated high availability
+- no idle capacity
+
+When you are designing your architecture, don't focus on the question: "What's the data that I am storing and what operations do i need to perform against that?" Instead, ask yourself this: "What are the events that should trigger an action in my system?"
+
+parallelization can be utilized with serverless computing to make huge improvements in processing efficiency, for relatively the same cost as a traditional processing approach that would take much longer. Pywren is an open source project that allows you to do extremely high throughput computing jobs using Lambda as the compute engine behind the scenes.
+
+The way you manage environments and deployments is different with serverless computing. Every developer can have their own dev environment. You can have a separate demo environment for every feature under development.
+
+Again, this was a short course and really just an overview. took 30 minutes.
+
 **April 16, 2022**
 
 Interesting observation - the total length of this learning path appears to have grown from 30+ hours to 41.5 hours. The listed duration at the Developer Learning Plan page is not correct for the last course I completed (states it as 10 minutes when it was about 22 minutes).
