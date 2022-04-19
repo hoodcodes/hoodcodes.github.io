@@ -10,6 +10,91 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 19, 2022**
+
+Next, the course "Deep Dive on AWS Fargate: Building Serverless Containers at Scale"
+
+Orchestration Tools are a powerful tool for ensuring you have proper management of containers so you can meet demand efficiently.
+
+ECS = Elastic Container Service, has a cluster manager and was designed to make container mgmt scale. A placement engine, scheduling and orchestration.
+
+However, it can become burdensome to then have a lot of EC2 instances out there to manage. Running containers in production is - hard work.
+
+Enter Fargate - Like serverless computing for containers. As close as you can get to containers on demand.
+
+- no infrastructure for you to manage
+- Elastic - scale up and down seamlessly. pay only for what you use.
+- Integrated with the AWS ecosystem
+
+Components of Fargate:
+
+Start with a blueprint recipe for your task - register a Task Definition.
+
+- define applicaiton containers: Image URL, CPU & Memory requirements etc
+- contains a list of up to 10 container definitions
+- is an immutable, versioned document
+- define task level resources (e.g. cpu), units and container level resources
+- define networking
+
+Then you create a Cluster
+
+- in Fargate it is a infrastructure isolation boundary, not the real cluster. also IAM permissions boundary
+
+Inside a cluster you run a Task,
+
+- which is a running instance of a task definition
+
+Create a service
+
+- maintain n running copies
+- integrated with elastic load balancing
+- unhealthy tasks automatically replaced
+
+if you needed to have multiple Fargate containers connecting to shared storage - this is definitely possible.
+
+- 4gb space is allocated per Task
+- configure via volume mounts in task definition
+  - can mount at different containerPaths
+  - do not specify host sourcePath
+
+Types of Permissions:
+
+- Cluster - controls who can launch/describe tasks in your cluster
+- Application - allows your application containers to access AWS resources securely
+- Housekeeping - allows us to perform housekeeping activities around your task:
+  - we need certain permissions in your account to bootstrap your task and keep it running
+    - execution role -
+    - ECS Service Linked Role -
+
+Visibility and Monitoring
+
+Takeaways -
+
+- Fargare is a launch type within ECS to run containers without having to manage EC2 instances
+- if you are debating between EC2 mode over Fargate mode, **start with Fargate**
+  - because you can easily switch to EC2 mode later should you want/need more control
+
+demo is next. Here are the notable steps
+
+- start with creating a cluster - using a CLI command
+  - `aws ecs create-cluster --cluster-name pictshare --region ap-southeast-2`
+- create a task definition - task_definition.json
+- register the task definition using a CLI command
+  - `aws ecs register-task-definition --cli-input-json file://task_definition.json --region ap-southeast-2 --query 'taskdefinition.taskDefinitionArn' "arn:aws:ecs:ap-southeast-2:jdsfjdf:task-definition/pictshare:10"`
+- create a service document - service.json
+- create the service with a CLI command:
+  - `aws ecs create-service --cli-input-json file://service.json`
+- run a CLI command to configure your autoscaling parameters:
+  - `aws application-autoscaling register-scalable-target --resource-id service/pictshare/pictshare --service-namespace ecs --scalable-dimension ecs:service:DesiredCount --min-capacity 1 --max-capacity 20 --role-arn arn:aws:iam:dfkjslfj:role/ecsServiceAutoScalingRole`
+- define the scaling out dimensions in a document - scale-out.json
+- run a CLI command to enable the scaling out policy:
+  - `aws application-autoscaling put-scaling-policy --cli-input-json file://scale-out.json`
+- now - invoke a simple curl command to validate the URL and that the service is running successfully
+
+The demo continues with showing how code changes can be run thru a CI/CD pipeline you create so that as you update and commit changes, the pipeline will commit, build, and deploy your updates to the ECR (Elastic Container Repository) and finally to production.
+
+This is worth watching several times. The lecture is good, although the accent for the speaker was a bit distracting just because I was not used to hearing it. Good course.
+
 **April 18, 2022**
 
 Course this evening is "Getting into the Serverless Mindset". Short. Notes:

@@ -32,5 +32,6 @@
   "window.zoomLevel": 1,
   "editor.tabSize": 2,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false
 }
