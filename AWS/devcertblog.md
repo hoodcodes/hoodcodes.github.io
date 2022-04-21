@@ -10,6 +10,68 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 21, 2022**
+
+Found some good tips for further study listed below:
+
+Read and Analyze AWS FAQs - The AWS Product and Technical FAQs reflects generally asked questions and issues. If you examine these FAQs, you could get answers to examination questions. We suggest at least read the following FAQS:
+
+- Cloud formation FAQs
+- Route 53 FAQs
+- EC2 FAQs
+- DynamoDB FAQs
+- RDS FAQs
+- S3 FAQs
+- IAM FAQs
+- SNS FAQs
+- SWF FAQs
+- SQS FAQs
+- And VPC FAQs
+
+Study the White Papers - There are some AWS Whitepapers recommended examining. You can expand your technical knowledge about AWS services and technologies; those had been composed by the AWS team, freelancer analysts, and AWS partners. At least go through the following whitepapers:
+
+- Overview of AWS Services
+- Cloud Architectures
+- Architecting for the Cloud: AWS Best Practices
+- Amazon Virtual Private Cloud Connectivity Options
+- Amazon Web Services: Overview of Security Processes
+- AWS Security Best Practices
+- Development and Test on AWS
+- How AWS Pricing Work
+
+I am going to add links to these items.
+
+**April 20, 2022**
+
+Course: "Deep Dive on Container Security"
+
+Talking about Risks to be concerned with for Containers:
+
+- Segregation
+- Access
+- Resources
+
+I decided to simply listen all the way through on this 35 minute course talk. This one was over my head with many foreign concepts. I will want to listen to this one again and come back here to take notes.
+
+I am going to move on to the next course, "ECS Primer" in the hopes I can get some head knowledge on container technologies in AWS which might help me connect the dots better on the last course.
+
+What is ECS
+
+Containers - a form of virtualization platform that happen at the operating system level. They only contain:
+
+- application code
+- libraries that help run that code
+
+A container is a running instance of a container image, which is an immutable object that can be stored in a public or private registry and customized as needed.
+
+containers are strongly associated with microservice architectures.
+
+microservices decompose traditional monolithic architectures into independent components that run as services, and communicate with lightweight apis.
+
+- microservice architectures enable quicker iteration, and increase resilience, efficiency and overall agility.
+
+This is still in progress... coming back to finish....
+
 **April 19, 2022**
 
 Next, the course "Deep Dive on AWS Fargate: Building Serverless Containers at Scale"
