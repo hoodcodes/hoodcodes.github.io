@@ -10,23 +10,60 @@ Chronicaling my journey to getting my AWS Developer Cloud Associate certificatio
 
 These are rough notes which I may use to help create a polished Article series on the topic once I am done.
 
+**April 22, 2022**
+
+Watching a few YT vids on AWS services, I think building a table of various types of projects and the services they would use sounds like a good reference tool. Something like below:
+
+| Project Type                        | AWS Services Utilized                             |
+| ----------------------------------- | ------------------------------------------------- |
+| Static Website                      | S3, Route53, Cloudfront                           |
+| CRUD App using ECS + Load Balancing | ECS, ECR, VPC, RDS(MySQL), Route53, Load Balancer |
+
+Also - writing out the basic services and their purpose for flashcard app (e.g. quizlet) would be useful for review.
+
+Services that are on the Developer Cert exam include:
+
+| Service                            | Purpose                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Amazon SQS                         | Amazon SQS provides queues for high-throughput, system-to-system messaging. You can use queues to decouple heavyweight processes and to buffer and batch work. Amazon SQS stores messages until microservices and serverless applications process them.                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
+| Amazon DynamoDB                    | DynamoDB is a fully managed, key-value, and document database that delivers single-digit-millisecond performance at any scale.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| Amazon Elasticache                 | Amazon ElastiCache is a web service that makes it easy to deploy and run Memcached or Redis protocol-compliant server nodes in the cloud. Amazon ElastiCache improves the performance of web applications by allowing you to retrieve information from a fast, managed, in-memory system, instead of relying entirely on slower disk-based databases. The service simplifies and offloads the management, monitoring and operation of in-memory environments, enabling your engineering resources to focus on developing applications. Using Amazon ElastiCache, you can not only improve load and response times to user actions and queries, but also reduce the cost associated with scaling web applications. |
+| Amazon Kinesis                     | With Amazon Kinesis Data Streams, you can build custom applications that process or analyze streaming data for specialized needs. You can add various types of data such as clickstreams, application logs, and social media to a Kinesis data stream from hundreds of thousands of sources. Within seconds, the data will be available for your applications to read and process from the stream.                                                                                                                                                                                                                                                                                                                |
+| AWS Lambda                         | AWS Lambda lets you run code without provisioning or managing servers. You pay only for the compute time you consume - there is no charge when your code is not running. With Lambda, you can run code for virtually any type of application or backend service - all with zero administration. Just upload your code, and Lambda takes care of everything required to run and scale your code with high availability. You can set up your code to automatically trigger from other AWS services or call it directly from any web or mobile app.                                                                                                                                                                  |
+| Amazon API Gateway                 | Amazon API Gateway helps developers to create and manage APIs to back-end systems running on Amazon EC2, AWS Lambda, or any publicly addressable web service. With Amazon API Gateway, you can generate custom client SDKs for your APIs, to connect your back-end systems to mobile, web, and server applications or services.                                                                                                                                                                                                                                                                                                                                                                                   |
+| AWS Elastic Beanstalk              | Amazon Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS.                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| AWS Identity and Access Mgmt (IAM) | IAM provides fine-grained access control across all of AWS. With IAM, you can control access to services and resources under specific conditions. Use IAM policies to manage permissions for your workforce and systems to ensure least privilege. IAM is offered at no additional charge.                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| AWS Key Management Service         | AWS KMS is a managed service that enables you to easily create and control the keys used for cryptographic operations. The service provides a highly available key generation, storage, management, and auditing solution for you to encrypt or digitally sign data within your own applications or control the encryption of data across AWS services.                                                                                                                                                                                                                                                                                                                                                           |
+
 **April 21, 2022**
 
 Found some good tips for further study listed below:
 
 Read and Analyze AWS FAQs - The AWS Product and Technical FAQs reflects generally asked questions and issues. If you examine these FAQs, you could get answers to examination questions. We suggest at least read the following FAQS:
 
-- Cloud formation FAQs
-- Route 53 FAQs
+These are highlighted on the latest Study Guide material on the AWS Cert page:
+
+- SQS FAQs https://aws.amazon.com/sqs/faqs/?da=sec&sec=prep
+- Elasticache FAQs https://aws.amazon.com/elasticache/faqs/?da=sec&sec=prep
+- Kinesis Data Streams FAQs https://aws.amazon.com/kinesis/data-streams/faqs/?da=sec&sec=prep
+- Lambda FAQs https://aws.amazon.com/lambda/faqs/?da=sec&sec=prep
+- API Gateway FAQs https://aws.amazon.com/api-gateway/faqs/?da=sec&sec=prep
+- Elastic Beanstalk FAQs https://aws.amazon.com/elasticbeanstalk/faqs/?da=sec&sec=prep
+- IAM FAQs https://aws.amazon.com/iam/faqs/?da=sec&sec=prep
+- DynamoDB FAQs https://aws.amazon.com/dynamodb/faqs/?da=sec&sec=prep
+- Key Mgmt Service FAQs https://aws.amazon.com/kms/faqs/?da=sec&sec=prep
+
+These are also worth looking at - but no longer mentioned as directly on the exam - fyi:
+
+- Cloudformation FAQs
+- Route53 FAQs
 - EC2 FAQs
-- DynamoDB FAQs
+- VPC FAQs
 - RDS FAQs
 - S3 FAQs
 - IAM FAQs
 - SNS FAQs
 - SWF FAQs
-- SQS FAQs
-- And VPC FAQs
 
 Study the White Papers - There are some AWS Whitepapers recommended examining. You can expand your technical knowledge about AWS services and technologies; those had been composed by the AWS team, freelancer analysts, and AWS partners. At least go through the following whitepapers:
 
@@ -39,7 +76,7 @@ Study the White Papers - There are some AWS Whitepapers recommended examining. Y
 - Development and Test on AWS
 - How AWS Pricing Work
 
-I am going to add links to these items.
+Note: I am adding links to these items as I find them.
 
 **April 20, 2022**
 

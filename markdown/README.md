@@ -30,7 +30,7 @@ The implementation is usually for Github.
 
 ### My most common used marddown elements
 
-## Element: Headings
+### Element: Headings
 
 ```
 # H1
@@ -53,33 +53,33 @@ The implementation is usually for Github.
 
 ###### H6
 
-## Element: Bold
+### Element: Bold
 
 `**my bold statement**`
 
 **my bold statement**
 
-## Element: Italic
+### Element: Italic
 
-`*my italic statement*`
+`_my italic statement_`
 
 _my italic statement_
 
-## Element: Unordered List
+### Element: Unordered List
 
-## Element: Ordered List
+### Element: Ordered List
 
-## Element: Code Blocks
+### Element: Code Blocks
 
 See `practice1.md` for examples in different languages
 
-## Element: Link
+### Element: Link
 
 `[title](https://www.example.com)`
 
 [HoodCodes Github](https://www.github.com/hoodcodes)
 
-## Element: Colored Text
+### Element: Colored Text
 
 ```
 <span style="color: green"> Some green text </span>
@@ -87,7 +87,7 @@ See `practice1.md` for examples in different languages
 
 <span style="color: green"> Some green text </span>
 
-## Element: Quote
+### Element: Quote
 
 You can quote text with a >.
 
@@ -95,14 +95,25 @@ You can quote text with a >.
 
 > This is a quote.
 
-## Element:
+### Element: Tables
 
-## Element:
+| Column | Column |
+| ------ | ------ |
+| Cell   | Cell   |
 
-## Element:
+| Column | Column | Column |
+| :----- | :----: | -----: |
+| Left   | Center |  Right |
+| align  | align  |  align |
 
-## Element:
+### Element: Spoilers (Hidden text or images) Do not work in Github flavored markdown
 
-## Element:
+> !This is hidden until your cursor hovers on top of it
 
-## Element:
+### Element:
+
+### Element:
+
+### Element:
+
+### Element:
