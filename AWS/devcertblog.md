@@ -92,7 +92,7 @@ I decided to simply listen all the way through on this 35 minute course talk. Th
 
 I am going to move on to the next course, "ECS Primer" in the hopes I can get some head knowledge on container technologies in AWS which might help me connect the dots better on the last course.
 
-What is ECS
+What is ECS - Elastic Container Service
 
 Containers - a form of virtualization platform that happen at the operating system level. They only contain:
 
@@ -107,7 +107,94 @@ microservices decompose traditional monolithic architectures into independent co
 
 - microservice architectures enable quicker iteration, and increase resilience, efficiency and overall agility.
 
-This is still in progress... coming back to finish....
+managing containers at scale: handling scheduling, placement, and integration with other services - such at networking, storage, monitoring and logging
+
+- Amazon ECS - what this course focuses on
+- Docker Swarm
+- Kubernetes
+
+ECS is a container orchestration service that supports Docker containers
+
+ECR - Elastic Container Registry
+
+There are 2 Launch Types:
+
+- Fargate - an almost serverless like experience
+  - good when you have services with wider swings in demand
+  - focus on the tasks themselves instead of worrying about the infrastructure
+- EC2 - when you want more control over the infrastructure, giving you finer control
+  - you define your infrastructure
+
+You can intermingle these launch types as necessary in your application
+
+1. You first pull a container image from a registry (ECR or private).
+2. Define your application, creating your own configuration files
+3. Select a launch type (Fargate or EC2)
+
+ECS Components
+
+<TODO>
+
+Task placement strategies
+
+<TODO>
+
+ECS integrating with other AWS Services
+
+<p align="center">
+  <img src="assets/../Assets/AWS%20Services%20ECS%20May%20Typically%20Integrate%20With.png" alt="banner"/>
+</p>
+
+ECR - fully integrated with ECS and Docker CLI
+
+Example of a Microservice architecture integrating with ECS:
+
+<p align="center">
+  <img src="assets/../Assets/ExampleMicroserviceArchitectureWithECS.png" alt="banner"/>
+</p>
+
+Example of a CI/CD pipeline involving ECS:
+
+<p align="center">
+  <img src="assets/../Assets/ECS-CI-CD-PipelineExample.png" alt="banner"/>
+</p>
+
+Blue-Green Deployments are possible
+
+- Lowers risks by deploying to 2 separate environments
+- enables deployment, testing and validation, along with rollback if issues exist
+- AWS CodeDeploy offers 'Blue-Green Deployment' as a deployment type
+- When Creating your ECS Service, you specify the deployment type
+- You use a Load Balancer to listen on 2 ports
+- Blue is the existing service, and green is the new service
+- when testing complete, you swap the ports on the environments
+
+ECS can be configured to use Auto Scaling
+
+- Application Load Balancer utilized
+- metrics are published to Cloudwatch
+- ECS scaling policies then specify if ECS tasks should be added or removed
+
+Security features in ECS
+
+ECS Tasks can have their own IAM role
+
+Tasks cannot access other services unless they have explicit roles allowing it
+
+Tasks can retrieve secrets from the System Manager Parameter Store, which is a pass-through service to the AWS Secrets Manager
+
+<p align="center">
+  <img src="assets/../Assets/ECS%20Managing%20Secrets.png" alt="banner"/>
+</p>
+
+Scheduling Strategies
+
+- Replica
+- Daemon - deploys exactly one task on each container instance meeting the constraints on your cluster
+
+What was different with this course is you had many individual video segments on bite sized topics. The material is shared rather quickly so I replayed most of them in order to write down my takeaways. The duration says 30 minutes, however I probably spent more like 90 minutes relistening and writing these notes, or copying some images for reference.
+
+Good course.
 
 **April 19, 2022**
 
@@ -169,7 +256,7 @@ Visibility and Monitoring
 
 Takeaways -
 
-- Fargare is a launch type within ECS to run containers without having to manage EC2 instances
+- Fargate is a launch type within ECS to run containers without having to manage EC2 instances
 - if you are debating between EC2 mode over Fargate mode, **start with Fargate**
   - because you can easily switch to EC2 mode later should you want/need more control
 
