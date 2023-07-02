@@ -17,6 +17,7 @@
 **API**
 
 - [REST](/rest-api/)
+- [GraphQL](/graphql-api/)
 
 **Database**
 
